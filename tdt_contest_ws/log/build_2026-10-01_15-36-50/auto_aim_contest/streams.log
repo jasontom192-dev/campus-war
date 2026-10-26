@@ -1,0 +1,37 @@
+[0.009s] Invoking command in '/home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest': AMENT_PREFIX_PATH=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface:/home/king/tdt-learning4.3/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface:/home/king/ros2_task1_ws/install/task1_pkg:/home/king/task4_ws/install/task4_sensors:/home/king/task4_ws/install/task4_recorder:/home/king/task3_ws/install/task3_nodes:/home/king/task3_ws/install/task3_interfaces:/home/king/task2_ws/install/task2_image_component:/opt/ros/jazzy:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface/lib:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface/lib:/home/king/task4_ws/install/task4_sensors/lib:/home/king/task4_ws/install/task4_recorder/lib:/home/king/task3_ws/install/task3_interfaces/lib:/home/king/task2_ws/install/task2_image_component/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib PYTHONPATH=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest -- -j24 -l24
+[0.029s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.209s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.214s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.235s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.242s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.311s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.312s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.374s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.432s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.598s] -- Found tdt_interface: 0.0.1 (/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake)
+[0.699s] -- TensorRT: /home/king/TensorRT/include / /home/king/TensorRT/lib
+[0.699s] -- cudart:   /home/king/TensorRT/cudart/usr/local/cuda-13.2/targets/x86_64-linux/include / /home/king/TensorRT/cudart/usr/local/cuda-13.2/targets/x86_64-linux/lib
+[0.773s] -- Configuring done (0.8s)
+[0.788s] -- Generating done (0.0s)
+[0.808s] -- Build files have been written to: /home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest
+[0.827s] [  9%] Built target NNdeployment_mpt_lib
+[0.844s] [ 38%] Built target NNdeployment_lib
+[0.876s] [ 42%] Building CXX object CMakeFiles/auto_aim_node.dir/src/auto_aim_node.cpp.o
+[0.876s] [ 47%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/rune_detector.cpp.o
+[0.877s] [ 52%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/rune_picker.cpp.o
+[0.877s] [ 61%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/rune_solver.cpp.o
+[0.877s] [ 61%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/rune_activation.cpp.o
+[0.877s] [ 66%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/rune_target.cpp.o
+[3.996s] In file included from /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/auto_aim_node.cpp:63:
+[3.996s] /home/king/tdt-learning4.5/contest_node/../src/rune_aimer.hpp: In member function ‘RuneAimer::Result RuneAimer::aim(TargetT, double, double, double, bool)’:
+[3.996s] /home/king/tdt-learning4.5/contest_node/../src/rune_aimer.hpp:103:30: error: ‘mistake_to_switch_’ was not declared in this scope; did you mean ‘mistake_to_switch’?
+[3.996s]   103 |         if (mistake_count_ > mistake_to_switch_) {   // 连跳够了：认了，真换叶
+[3.996s]       |                              ^~~~~~~~~~~~~~~~~~
+[3.996s]       |                              mistake_to_switch
+[7.682s] gmake[2]: *** [CMakeFiles/auto_aim_node.dir/build.make:79：CMakeFiles/auto_aim_node.dir/src/auto_aim_node.cpp.o] 错误 1
+[7.682s] gmake[2]: *** 正在等待未完成的任务....
+[7.724s] gmake[1]: *** [CMakeFiles/Makefile2:178：CMakeFiles/auto_aim_node.dir/all] 错误 2
+[7.724s] gmake: *** [Makefile:146：all] 错误 2
+[7.726s] Invoked command in '/home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest' returned '2': AMENT_PREFIX_PATH=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface:/home/king/tdt-learning4.3/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface:/home/king/ros2_task1_ws/install/task1_pkg:/home/king/task4_ws/install/task4_sensors:/home/king/task4_ws/install/task4_recorder:/home/king/task3_ws/install/task3_nodes:/home/king/task3_ws/install/task3_interfaces:/home/king/task2_ws/install/task2_image_component:/opt/ros/jazzy:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface/lib:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface/lib:/home/king/task4_ws/install/task4_sensors/lib:/home/king/task4_ws/install/task4_recorder/lib:/home/king/task3_ws/install/task3_interfaces/lib:/home/king/task2_ws/install/task2_image_component/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib PYTHONPATH=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest -- -j24 -l24

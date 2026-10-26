@@ -1,0 +1,10 @@
+In file included from /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/auto_aim_node.cpp:63:
+/home/king/tdt-learning4.5/contest_node/../src/rune_aimer.hpp: In member function ‘RuneAimer::Result RuneAimer::aim(TargetT, double, double, double, bool)’:
+/home/king/tdt-learning4.5/contest_node/../src/rune_aimer.hpp:103:30: error: ‘mistake_to_switch_’ was not declared in this scope; did you mean ‘mistake_to_switch’?
+  103 |         if (mistake_count_ > mistake_to_switch_) {   // 连跳够了：认了，真换叶
+      |                              ^~~~~~~~~~~~~~~~~~
+      |                              mistake_to_switch
+gmake[2]: *** [CMakeFiles/auto_aim_node.dir/build.make:79：CMakeFiles/auto_aim_node.dir/src/auto_aim_node.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:178：CMakeFiles/auto_aim_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

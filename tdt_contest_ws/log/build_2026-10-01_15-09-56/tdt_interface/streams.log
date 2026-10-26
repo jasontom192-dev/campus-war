@@ -1,0 +1,333 @@
+[0.008s] Invoking command in '/home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake /home/king/tdt-learning4.5/tdt_contest_ws/src/tdt_interface -DPython3_EXECUTABLE=/usr/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface
+[0.056s] -- The C compiler identification is GNU 13.3.0
+[0.114s] -- The CXX compiler identification is GNU 13.3.0
+[0.121s] -- Detecting C compiler ABI info
+[0.172s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.258s] -- Detecting CXX compiler ABI info - done
+[0.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.274s] -- Detecting CXX compile features
+[0.275s] -- Detecting CXX compile features - done
+[0.285s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.410s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+[0.469s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.496s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.535s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.546s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.560s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.603s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.647s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.665s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.334s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.525s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.657s] -- Found PythonExtra: /usr/bin/python3
+[3.065s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed
+[3.183s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+[3.191s] -- Configuring done (3.2s)
+[3.232s] -- Generating done (0.0s)
+[3.247s] -- Build files have been written to: /home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface
+[3.255s] Invoked command in '/home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake /home/king/tdt-learning4.5/tdt_contest_ws/src/tdt_interface -DPython3_EXECUTABLE=/usr/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface
+[3.255s] Invoking command in '/home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --build /home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface -- -j24 -l24
+[3.279s] [  1%] Generating type hashes for ROS interfaces
+[3.279s] [  2%] Generating Rust code for ROS interfaces
+[3.279s] [  2%] Built target ament_cmake_python_symlink_tdt_interface
+[3.432s] running egg_info
+[3.432s] creating tdt_interface.egg-info
+[3.444s] writing tdt_interface.egg-info/PKG-INFO
+[3.444s] writing dependency_links to tdt_interface.egg-info/dependency_links.txt
+[3.444s] writing top-level names to tdt_interface.egg-info/top_level.txt
+[3.444s] writing manifest file 'tdt_interface.egg-info/SOURCES.txt'
+[3.469s] [  2%] Built target tdt_interface__rosidl_generator_type_description
+[3.473s] [  4%] Generating C code for ROS interfaces
+[3.477s] [  5%] Generating C++ code for ROS interfaces
+[3.479s] reading manifest file 'tdt_interface.egg-info/SOURCES.txt'
+[3.480s] writing manifest file 'tdt_interface.egg-info/SOURCES.txt'
+[3.496s] [  5%] Built target ament_cmake_python_build_tdt_interface_egg
+[3.498s] [  5%] Built target tdt_interface__rs
+[3.754s] [  5%] Built target tdt_interface__cpp
+[3.818s] [  6%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/send_data__description.c.o
+[3.818s] [  8%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/send_data__functions.c.o
+[3.818s] [  9%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/auto_aim_state__functions.c.o
+[3.818s] [ 10%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/send_data__type_support.c.o
+[3.818s] [ 12%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/auto_aim_state__description.c.o
+[3.818s] [ 13%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/auto_aim_state__type_support.c.o
+[3.818s] [ 14%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/auto_aim_frame__description.c.o
+[3.818s] [ 17%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/auto_aim_frame__functions.c.o
+[3.819s] [ 17%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/auto_aim_frame__type_support.c.o
+[3.819s] [ 18%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/rune_request__description.c.o
+[3.820s] [ 20%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/rune_request__functions.c.o
+[3.821s] [ 21%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/rune_request__type_support.c.o
+[3.821s] [ 22%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/rune_result__description.c.o
+[3.822s] [ 24%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/rune_result__functions.c.o
+[3.822s] [ 25%] Building C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/rune_result__type_support.c.o
+[3.864s] [ 26%] Linking C shared library libtdt_interface__rosidl_generator_c.so
+[3.888s] [ 26%] Built target tdt_interface__rosidl_generator_c
+[3.891s] [ 28%] Generating C introspection for ROS interfaces
+[3.892s] [ 29%] Generating C++ type support dispatch for ROS interfaces
+[3.892s] [ 33%] Generating C type support dispatch for ROS interfaces
+[3.892s] [ 33%] Generating C++ type support for eProsima Fast-RTPS
+[3.892s] [ 33%] Generating C type support for eProsima Fast-RTPS
+[3.892s] [ 34%] Generating C++ introspection for ROS interfaces
+[4.099s] [ 36%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tdt_interface/msg/send_data__type_support.cpp.o
+[4.099s] [ 37%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tdt_interface/msg/auto_aim_state__type_support.cpp.o
+[4.100s] [ 38%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tdt_interface/msg/auto_aim_frame__type_support.cpp.o
+[4.100s] [ 40%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tdt_interface/msg/rune_request__type_support.cpp.o
+[4.100s] [ 41%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tdt_interface/msg/rune_result__type_support.cpp.o
+[4.149s] [ 42%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tdt_interface/msg/detail/send_data__type_support.cpp.o
+[4.150s] [ 44%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tdt_interface/msg/detail/auto_aim_state__type_support.cpp.o
+[4.150s] [ 45%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tdt_interface/msg/detail/auto_aim_frame__type_support.cpp.o
+[4.150s] [ 46%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tdt_interface/msg/detail/rune_request__type_support.cpp.o
+[4.150s] [ 48%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tdt_interface/msg/detail/rune_result__type_support.cpp.o
+[4.189s] [ 49%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tdt_interface/msg/detail/send_data__type_support_c.cpp.o
+[4.190s] [ 50%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tdt_interface/msg/detail/auto_aim_state__type_support_c.cpp.o
+[4.190s] [ 52%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tdt_interface/msg/detail/auto_aim_frame__type_support_c.cpp.o
+[4.192s] [ 53%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tdt_interface/msg/detail/rune_request__type_support_c.cpp.o
+[4.192s] [ 54%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tdt_interface/msg/detail/rune_result__type_support_c.cpp.o
+[4.204s] [ 56%] Building C object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tdt_interface/msg/detail/send_data__type_support.c.o
+[4.204s] [ 57%] Building C object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tdt_interface/msg/detail/auto_aim_frame__type_support.c.o
+[4.207s] [ 58%] Building C object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tdt_interface/msg/detail/auto_aim_state__type_support.c.o
+[4.207s] [ 60%] Building C object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tdt_interface/msg/detail/rune_request__type_support.c.o
+[4.212s] [ 61%] Building C object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tdt_interface/msg/detail/rune_result__type_support.c.o
+[4.238s] [ 62%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/tdt_interface/msg/auto_aim_state__type_support.cpp.o
+[4.240s] [ 64%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/tdt_interface/msg/send_data__type_support.cpp.o
+[4.242s] [ 65%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/tdt_interface/msg/auto_aim_frame__type_support.cpp.o
+[4.250s] [ 66%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/tdt_interface/msg/rune_result__type_support.cpp.o
+[4.250s] [ 68%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/tdt_interface/msg/rune_request__type_support.cpp.o
+[4.256s] [ 69%] Linking C shared library libtdt_interface__rosidl_typesupport_introspection_c.so
+[4.274s] [ 70%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tdt_interface/msg/detail/dds_fastrtps/send_data__type_support.cpp.o
+[4.276s] [ 72%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tdt_interface/msg/detail/dds_fastrtps/auto_aim_state__type_support.cpp.o
+[4.277s] [ 73%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tdt_interface/msg/detail/dds_fastrtps/auto_aim_frame__type_support.cpp.o
+[4.279s] [ 73%] Built target tdt_interface__rosidl_typesupport_introspection_c
+[4.281s] [ 74%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tdt_interface/msg/detail/dds_fastrtps/rune_request__type_support.cpp.o
+[4.282s] [ 76%] Building CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tdt_interface/msg/detail/dds_fastrtps/rune_result__type_support.cpp.o
+[4.319s] [ 77%] Linking CXX shared library libtdt_interface__rosidl_typesupport_c.so
+[4.359s] [ 77%] Built target tdt_interface__rosidl_typesupport_c
+[4.474s] [ 78%] Linking CXX shared library libtdt_interface__rosidl_typesupport_cpp.so
+[4.497s] [ 78%] Built target tdt_interface__rosidl_typesupport_cpp
+[4.593s] [ 80%] Linking CXX shared library libtdt_interface__rosidl_typesupport_introspection_cpp.so
+[4.661s] [ 80%] Built target tdt_interface__rosidl_typesupport_introspection_cpp
+[4.691s] [ 81%] Linking CXX shared library libtdt_interface__rosidl_typesupport_fastrtps_c.so
+[4.725s] [ 82%] Linking CXX shared library libtdt_interface__rosidl_typesupport_fastrtps_cpp.so
+[4.725s] [ 82%] Built target tdt_interface__rosidl_typesupport_fastrtps_c
+[4.773s] [ 82%] Built target tdt_interface__rosidl_typesupport_fastrtps_cpp
+[4.781s] [ 82%] Built target tdt_interface
+[4.788s] [ 84%] Generating Python code for ROS interfaces
+[5.195s] [ 84%] Built target tdt_interface__py
+[5.202s] [ 85%] Building C object CMakeFiles/tdt_interface__rosidl_generator_py.dir/rosidl_generator_py/tdt_interface/msg/_send_data_s.c.o
+[5.203s] [ 86%] Building C object CMakeFiles/tdt_interface__rosidl_generator_py.dir/rosidl_generator_py/tdt_interface/msg/_auto_aim_state_s.c.o
+[5.203s] [ 89%] Building C object CMakeFiles/tdt_interface__rosidl_generator_py.dir/rosidl_generator_py/tdt_interface/msg/_rune_result_s.c.o
+[5.203s] [ 88%] Building C object CMakeFiles/tdt_interface__rosidl_generator_py.dir/rosidl_generator_py/tdt_interface/msg/_auto_aim_frame_s.c.o
+[5.203s] [ 90%] Building C object CMakeFiles/tdt_interface__rosidl_generator_py.dir/rosidl_generator_py/tdt_interface/msg/_rune_request_s.c.o
+[5.305s] [ 92%] Linking C shared library libtdt_interface__rosidl_generator_py.so
+[5.334s] [ 92%] Built target tdt_interface__rosidl_generator_py
+[5.342s] [ 93%] Building C object CMakeFiles/tdt_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[5.342s] [ 94%] Building C object CMakeFiles/tdt_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_introspection_c.c.o
+[5.343s] [ 96%] Building C object CMakeFiles/tdt_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_c.c.o
+[5.415s] [ 97%] Linking C shared module rosidl_generator_py/tdt_interface/tdt_interface_s__rosidl_typesupport_c.so
+[5.416s] [ 98%] Linking C shared module rosidl_generator_py/tdt_interface/tdt_interface_s__rosidl_typesupport_introspection_c.so
+[5.418s] [100%] Linking C shared module rosidl_generator_py/tdt_interface/tdt_interface_s__rosidl_typesupport_fastrtps_c.so
+[5.434s] [100%] Built target tdt_interface_s__rosidl_typesupport_c
+[5.435s] [100%] Built target tdt_interface_s__rosidl_typesupport_introspection_c
+[5.437s] [100%] Built target tdt_interface_s__rosidl_typesupport_fastrtps_c
+[5.441s] Invoked command in '/home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --build /home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface -- -j24 -l24
+[5.444s] Invoking command in '/home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --install /home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface
+[5.447s] -- Install configuration: ""
+[5.448s] -- Execute custom install script
+[5.448s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/ament_index/resource_index/rosidl_interfaces/tdt_interface
+[5.450s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/SendData.json
+[5.453s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/AutoAimState.json
+[5.455s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/AutoAimFrame.json
+[5.457s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/RuneRequest.json
+[5.459s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/RuneResult.json
+[5.461s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/auto_aim_frame.h
+[5.464s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/auto_aim_state.h
+[5.466s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_frame__functions.h
+[5.468s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_frame__struct.h
+[5.470s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_frame__type_support.h
+[5.472s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_state__functions.h
+[5.474s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_state__struct.h
+[5.476s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_state__type_support.h
+[5.478s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_request__functions.h
+[5.480s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_request__struct.h
+[5.482s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_request__type_support.h
+[5.484s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_result__functions.h
+[5.486s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_result__struct.h
+[5.487s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_result__type_support.h
+[5.490s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__functions.h
+[5.491s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__struct.h
+[5.493s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__type_support.h
+[5.495s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rosidl_generator_c__visibility_control.h
+[5.497s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rune_request.h
+[5.499s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rune_result.h
+[5.501s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/send_data.h
+[5.503s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/environment/library_path.sh
+[5.505s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/environment/library_path.dsv
+[5.507s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_frame__rosidl_typesupport_fastrtps_c.h
+[5.509s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_state__rosidl_typesupport_fastrtps_c.h
+[5.511s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_request__rosidl_typesupport_fastrtps_c.h
+[5.513s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_result__rosidl_typesupport_fastrtps_c.h
+[5.515s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__rosidl_typesupport_fastrtps_c.h
+[5.517s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.519s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/auto_aim_frame.hpp
+[5.521s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/auto_aim_state.hpp
+[5.523s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_frame__builder.hpp
+[5.525s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_frame__struct.hpp
+[5.527s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_frame__traits.hpp
+[5.529s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_frame__type_support.hpp
+[5.531s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_state__builder.hpp
+[5.533s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_state__struct.hpp
+[5.535s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_state__traits.hpp
+[5.537s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_state__type_support.hpp
+[5.539s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_request__builder.hpp
+[5.541s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_request__struct.hpp
+[5.543s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_request__traits.hpp
+[5.545s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_request__type_support.hpp
+[5.547s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_result__builder.hpp
+[5.548s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_result__struct.hpp
+[5.550s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_result__traits.hpp
+[5.552s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_result__type_support.hpp
+[5.554s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__builder.hpp
+[5.556s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__struct.hpp
+[5.558s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__traits.hpp
+[5.560s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__type_support.hpp
+[5.561s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.563s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rune_request.hpp
+[5.565s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rune_result.hpp
+[5.567s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/send_data.hpp
+[5.569s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[5.571s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.572s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_request__rosidl_typesupport_fastrtps_cpp.hpp
+[5.574s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_result__rosidl_typesupport_fastrtps_cpp.hpp
+[5.576s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__rosidl_typesupport_fastrtps_cpp.hpp
+[5.578s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.580s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_frame__rosidl_typesupport_introspection_c.h
+[5.581s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_state__rosidl_typesupport_introspection_c.h
+[5.583s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_request__rosidl_typesupport_introspection_c.h
+[5.585s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_result__rosidl_typesupport_introspection_c.h
+[5.587s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__rosidl_typesupport_introspection_c.h
+[5.588s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.591s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_frame__rosidl_typesupport_introspection_cpp.hpp
+[5.592s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/auto_aim_state__rosidl_typesupport_introspection_cpp.hpp
+[5.594s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_request__rosidl_typesupport_introspection_cpp.hpp
+[5.596s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/rune_result__rosidl_typesupport_introspection_cpp.hpp
+[5.598s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__rosidl_typesupport_introspection_cpp.hpp
+[5.600s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/environment/pythonpath.sh
+[5.601s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/environment/pythonpath.dsv
+[5.603s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface-0.0.1-py3.12.egg-info/PKG-INFO
+[5.605s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface-0.0.1-py3.12.egg-info/SOURCES.txt
+[5.607s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface-0.0.1-py3.12.egg-info/dependency_links.txt
+[5.609s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface-0.0.1-py3.12.egg-info/top_level.txt
+[5.610s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/__init__.py
+[5.612s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_c.c
+[5.614s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.616s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_introspection_c.c
+[5.618s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/__init__.py
+[5.620s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_auto_aim_frame.py
+[5.622s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_auto_aim_frame_s.c
+[5.624s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_auto_aim_state.py
+[5.625s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_auto_aim_state_s.c
+[5.627s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_rune_request.py
+[5.629s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_rune_request_s.c
+[5.631s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_rune_result.py
+[5.633s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_rune_result_s.c
+[5.635s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_send_data.py
+[5.637s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_send_data_s.c
+[5.639s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_c.so
+[5.640s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_fastrtps_c.so
+[5.642s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_introspection_c.so
+[5.644s] -- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_fastrtps_c.so
+[5.644s] -- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_introspection_c.so
+[5.644s] -- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_c.so
+[5.644s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/ament_index/resource_index/rust_packages/tdt_interface
+[5.646s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/rust/Cargo.toml
+[5.648s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/rust/build.rs
+[5.650s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/rust/src/lib.rs
+[5.652s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/rust/src/msg.rs
+[5.653s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/rust/src/msg/rmw.rs
+[5.655s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/SendData.idl
+[5.657s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/AutoAimState.idl
+[5.659s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/AutoAimFrame.idl
+[5.661s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/RuneRequest.idl
+[5.663s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/RuneResult.idl
+[5.665s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/SendData.msg
+[5.667s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/AutoAimState.msg
+[5.669s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/AutoAimFrame.msg
+[5.671s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/RuneRequest.msg
+[5.672s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/msg/RuneResult.msg
+[5.674s] -- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface//msg/AutoAimFrame.msg
+[5.675s] -- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface//msg/AutoAimState.msg
+[5.675s] -- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface//msg/RuneRequest.msg
+[5.675s] -- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface//msg/RuneResult.msg
+[5.675s] -- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface//msg/SendData.msg
+[5.675s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/ament_index/resource_index/package_run_dependencies/tdt_interface
+[5.676s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/ament_index/resource_index/parent_prefix_path/tdt_interface
+[5.678s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/environment/ament_prefix_path.sh
+[5.680s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/environment/ament_prefix_path.dsv
+[5.682s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/environment/path.sh
+[5.684s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/environment/path.dsv
+[5.686s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/local_setup.bash
+[5.688s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/local_setup.sh
+[5.690s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/local_setup.zsh
+[5.692s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/local_setup.dsv
+[5.694s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/package.dsv
+[5.696s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/ament_index/resource_index/packages/tdt_interface
+[5.697s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/rosidl_cmake-extras.cmake
+[5.699s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.701s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.703s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[5.705s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/ament_cmake_export_targets-extras.cmake
+[5.707s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.709s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.711s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[5.713s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/tdt_interfaceConfig.cmake
+[5.715s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/tdt_interfaceConfig-version.cmake
+[5.717s] -- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/package.xml
+[5.719s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_generator_c.so
+[5.719s] -- Set non-toolchain portion of runtime path of "/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_generator_c.so" to ""
+[5.719s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_fastrtps_c.so
+[5.719s] -- Set non-toolchain portion of runtime path of "/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[5.719s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_fastrtps_cpp.so
+[5.719s] -- Set non-toolchain portion of runtime path of "/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.719s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_introspection_c.so
+[5.719s] -- Set non-toolchain portion of runtime path of "/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_introspection_c.so" to ""
+[5.719s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_c.so
+[5.720s] -- Set non-toolchain portion of runtime path of "/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_c.so" to ""
+[5.720s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_introspection_cpp.so
+[5.720s] -- Set non-toolchain portion of runtime path of "/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[5.720s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_cpp.so
+[5.720s] -- Set non-toolchain portion of runtime path of "/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_cpp.so" to ""
+[5.753s] Listing '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface'...
+[5.753s] Compiling '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/__init__.py'...
+[5.753s] Listing '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg'...
+[5.753s] Compiling '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/__init__.py'...
+[5.753s] Compiling '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_auto_aim_frame.py'...
+[5.753s] Compiling '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_auto_aim_state.py'...
+[5.753s] Compiling '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_rune_request.py'...
+[5.753s] Compiling '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_rune_result.py'...
+[5.753s] Compiling '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages/tdt_interface/msg/_send_data.py'...
+[5.757s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_generator_py.so
+[5.757s] -- Set non-toolchain portion of runtime path of "/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/libtdt_interface__rosidl_generator_py.so" to ""
+[5.757s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_cExport.cmake
+[5.757s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_cExport-noconfig.cmake
+[5.757s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[5.757s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.757s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_cppExport.cmake
+[5.757s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.757s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.757s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_introspection_cExport.cmake
+[5.758s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.758s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_cExport.cmake
+[5.758s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_cExport-noconfig.cmake
+[5.758s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_introspection_cppExport.cmake
+[5.758s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.758s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_cppExport.cmake
+[5.758s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[5.758s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_pyExport.cmake
+[5.758s] -- Installing: /home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_pyExport-noconfig.cmake
+[5.758s] Invoked command in '/home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/local/bin/cmake --install /home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface

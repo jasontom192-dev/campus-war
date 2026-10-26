@@ -1,0 +1,10 @@
+/home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/auto_aim_node.cpp: In member function ‘void AutoAimNode::decode_and_aim(const tdt_interface::msg::AutoAimFrame&, bool)’:
+/home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/auto_aim_node.cpp:571:27: error: redeclaration of ‘const Eigen::Matrix3d R_world_from_cam’
+  571 |     const Eigen::Matrix3d R_world_from_cam = world_from_cam(yaw_now, pitch_now);
+      |                           ^~~~~~~~~~~~~~~~
+/home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/auto_aim_node.cpp:554:27: note: ‘const Eigen::Matrix3d R_world_from_cam’ previously declared here
+  554 |     const Eigen::Matrix3d R_world_from_cam = world_from_cam(yaw_now, pitch_now);
+      |                           ^~~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/auto_aim_node.dir/build.make:79：CMakeFiles/auto_aim_node.dir/src/auto_aim_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:205：CMakeFiles/auto_aim_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

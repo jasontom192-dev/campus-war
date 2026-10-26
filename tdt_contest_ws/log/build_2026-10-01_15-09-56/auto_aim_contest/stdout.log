@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13")
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found OpenCV: /usr/local (found version "4.7.0")
+-- Found tdt_interface: 0.0.1 (/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake)
+-- TensorRT: /home/king/TensorRT/include / /home/king/TensorRT/lib
+-- cudart:   /home/king/TensorRT/cudart/usr/local/cuda-13.2/targets/x86_64-linux/include / /home/king/TensorRT/cudart/usr/local/cuda-13.2/targets/x86_64-linux/lib
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest
+[  6%] Building CXX object nndeployment/CMakeFiles/NNdeployment_mpt_lib.dir/src/performance/network_performance.cpp.o
+[ 12%] Linking CXX static library libNNdeployment_mpt_lib.a
+[ 12%] Built target NNdeployment_mpt_lib
+[ 18%] Building CXX object nndeployment/CMakeFiles/NNdeployment_lib.dir/interface/network_deployment_interface.cpp.o
+[ 25%] Building CXX object nndeployment/CMakeFiles/NNdeployment_lib.dir/src/network_deployment_lib.cpp.o
+[ 31%] Building CXX object nndeployment/CMakeFiles/NNdeployment_lib.dir/src/preprocess/network_preprocess.cpp.o
+[ 37%] Building CXX object nndeployment/CMakeFiles/NNdeployment_lib.dir/src/postprocess/network_postprocess.cpp.o
+[ 43%] Building CXX object nndeployment/CMakeFiles/NNdeployment_lib.dir/src/inference/network_deployment_tensorrt.cpp.o
+[ 50%] Linking CXX shared library libNNdeployment_lib.so
+[ 50%] Built target NNdeployment_lib
+[ 56%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/detector.cpp.o
+[ 62%] Building CXX object CMakeFiles/auto_aim_node.dir/src/auto_aim_node.cpp.o
+[ 68%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/solver.cpp.o
+[ 75%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/tracker.cpp.o
+[ 81%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/aimer.cpp.o
+[ 87%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/target.cpp.o
+[ 93%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/visualizer.cpp.o
+[100%] Linking CXX executable auto_aim_node
+[100%] Built target auto_aim_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/lib/auto_aim_contest/auto_aim_node
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/config_contest.yaml
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/ament_index/resource_index/package_run_dependencies/auto_aim_contest
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/ament_index/resource_index/parent_prefix_path/auto_aim_contest
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/environment/ament_prefix_path.sh
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/environment/ament_prefix_path.dsv
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/environment/path.sh
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/environment/path.dsv
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/local_setup.bash
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/local_setup.sh
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/local_setup.zsh
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/local_setup.dsv
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/package.dsv
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/ament_index/resource_index/packages/auto_aim_contest
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/cmake/auto_aim_contestConfig.cmake
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/cmake/auto_aim_contestConfig-version.cmake
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/package.xml

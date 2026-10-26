@@ -1,0 +1,23 @@
+{
+  "_说明": "全自动任务站点表。【机器生成，别手改】改站点去 /home/king/下载/ai.memory/nav-mission-stages.md，然后跑 python3 contest_node/tools/stages_from_md.py 回写。done: arrive=到点即走 / hp=把 number 打到 0 / rune=activated 变 true（且本站叫过符）。aim: null=正常搜索; {type:enemy,number,pitch}=云台对住该目标（实时位置）。wait=到点后停留秒数（补弹）。stop=距实时目标多远停车打（缺省 4.5）。",
+  "rune_preset": {"yaw": 40.9, "pitch": -18.88},
+  "stages": [
+    {"name": "出生点", "goal": [14.5, -34.5], "done": "arrive", "aim": null},
+    {"name": "打符位·第一轮", "goal": [-15.52, -11.06], "done": "rune", "aim": {"type": "rune"}},
+    {"name": "三号区域", "goal": [-21.5, 16.5], "done": "hp", "number": 3, "aim": {"type": "enemy", "number": 3, "pitch": -4}},
+    {"name": "前哨站区域", "goal": [-23.32, 11.1], "done": "hp", "number": 6, "fixed": true, "aim": {"type": "enemy", "number": 6, "pitch": -15}},
+    {"name": "二号区域", "goal": [-7.4, 7.06], "done": "hp", "number": 2, "aim": {"type": "enemy", "number": 2, "pitch": -4}},
+    {"name": "打符位·第二轮", "goal": [-15.52, -11.06], "done": "rune", "aim": {"type": "rune"}},
+    {"name": "出生点·补弹", "goal": [14.5, -34.5], "done": "arrive", "wait": 20, "aim": null},
+    {"name": "打符位·第三轮", "goal": [-15.52, -11.06], "done": "rune", "aim": {"type": "rune"}},
+    {"name": "打四号车", "goal": [-20.33, 9.34], "done": "hp", "number": 4, "fixed": true, "aim": {"type": "enemy", "number": 4, "pitch": 8.4}},
+    {"name": "途经点1", "goal": [-9.6, -6.11], "done": "arrive", "aim": null},
+    {"name": "途经点2", "goal": [13.16, -7.14], "done": "arrive", "aim": null},
+    {"name": "途经点3", "goal": [11.77, 7.16], "done": "arrive", "aim": null},
+    {"name": "五号区域", "goal": [-4.5, 27.5], "done": "hp", "number": 5, "aim": {"type": "enemy", "number": 5, "pitch": -4}},
+    {"name": "打符位·第四轮", "goal": [-15.52, -11.06], "done": "rune", "aim": {"type": "rune"}},
+    {"name": "敌方基地·待3秒", "goal": [-4.9, 30.0], "done": "arrive", "wait": 3, "aim": {"type": "enemy", "number": 7, "pitch": -6}},
+    {"name": "打符位·第五轮", "goal": [-15.52, -11.06], "done": "rune", "aim": {"type": "rune"}},
+    {"name": "敌方基地", "goal": [-4.9, 30.0], "done": "hp", "number": 7, "aim": {"type": "enemy", "number": 7, "pitch": -6}}
+  ]
+}

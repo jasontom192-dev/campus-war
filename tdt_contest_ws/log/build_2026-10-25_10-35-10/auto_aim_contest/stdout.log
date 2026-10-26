@@ -1,0 +1,68 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found tdt_interface: 0.0.1 (/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake)
+-- TensorRT: /home/king/TensorRT/include / /home/king/TensorRT/lib
+-- cudart:   /home/king/TensorRT/cudart/usr/local/cuda-13.2/targets/x86_64-linux/include / /home/king/TensorRT/cudart/usr/local/cuda-13.2/targets/x86_64-linux/lib
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest
+[  2%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/config_loader/src/json/ReJson.cpp.o
+[  5%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/power_rune/interface/power_rune_interface.cpp.o
+[  8%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/function/src/function.cpp.o
+[ 10%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/power_rune/src/PhaseMotionEstimator.cpp.o
+[ 13%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/power_rune/src/PowerRunePlane.cpp.o
+[ 16%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/power_rune/src/PowerRuneProcessor.cpp.o
+[ 18%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/power_rune/src/PowerRuneBallisticModel.cpp.o
+[ 21%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/power_rune/src/RuneDecisionModule.cpp.o
+[ 24%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/power_rune/src/RuneObservationRefiner.cpp.o
+[ 27%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/power_rune/src/big_rune_motion_estimate/BigRunePhaseMotionFilter.cpp.o
+[ 32%] Built target NNdeployment_mpt_lib
+[ 35%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/power_rune/src/big_rune_motion_estimate/LM_IRLS_BigRunePhaseMotionFilter.cpp.o
+[ 37%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/power_rune/src/common/points_world.cpp.o
+[ 40%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/power_rune/src/common/PowerRuneDiagnostics.cpp.o
+[ 43%] Building CXX object campus-rune/CMakeFiles/campus-rune.dir/transform_tools/src/transform_tools/transform_tools.cpp.o
+[ 51%] Built target navgrid_test
+[ 67%] Built target NNdeployment_lib
+[ 70%] Linking CXX static library libcampus-rune.a
+[ 70%] Built target campus-rune
+[ 72%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/aimer.cpp.o
+[ 75%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/detector.cpp.o
+[ 78%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/rune/rune_detector.cpp.o
+[ 81%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/solver.cpp.o
+[ 83%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/target.cpp.o
+[ 86%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/tracker.cpp.o
+[ 89%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/visualizer.cpp.o
+[ 91%] Building CXX object CMakeFiles/auto_aim_node.dir/src/auto_aim_node.cpp.o
+[ 94%] Building CXX object CMakeFiles/auto_aim_node.dir/src/nav_grid.cpp.o
+[ 97%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/rune/rune_campus.cpp.o
+[100%] Linking CXX executable auto_aim_node
+[100%] Built target auto_aim_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/lib/auto_aim_contest/navgrid_test
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/lib/auto_aim_contest/auto_aim_node
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/config_contest.yaml
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/ament_index/resource_index/package_run_dependencies/auto_aim_contest
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/ament_index/resource_index/parent_prefix_path/auto_aim_contest
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/environment/path.sh
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/environment/path.dsv
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/local_setup.bash
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/local_setup.sh
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/local_setup.zsh
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/local_setup.dsv
+-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/package.dsv
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/ament_index/resource_index/packages/auto_aim_contest
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/cmake/auto_aim_contestConfig.cmake
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/cmake/auto_aim_contestConfig-version.cmake
+-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/package.xml

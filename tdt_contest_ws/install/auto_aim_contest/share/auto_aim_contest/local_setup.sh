@@ -1,0 +1,1 @@
+/home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest/ament_cmake_environment_hooks/local_setup.sh

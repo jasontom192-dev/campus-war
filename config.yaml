@@ -1,0 +1,43 @@
+
+enemy_color: "red"
+
+# ── 检测模型 ────────────────────────────────────────────────────────────────
+# TensorRT engine，由 tools/build_engine.py 从
+#   26_NNDeployment.../所有模型/onnx/Infantry-v8n-fp16-20260726-D1.8w-B16.onnx
+# 编译而来。engine 与 GPU 架构 / TensorRT 版本绑定，换机器或升级 TRT 后要重新生成
+model_path: "../models/infantry_v8n.engine"
+score_threshold: 0.5        # 仓库 detect.json 用的就是 0.5
+
+wait_ms: 8
+
+# 离线复核：非空则把标注帧按 save_every_n 张一次写成 JPG
+save_frames_dir: ""
+save_every_n: 30
+show_window: true
+
+# ── 相机内参：比赛用（规则手册 7.1 表 12）────────────────────────────────────
+# ROS 图像 960×720、无畸变针孔模型。节点运行时以同帧 camera_info 为准
+# （规则 7.1:"算法必须优先读取同帧 camera_info,不得依赖硬编码内参"），
+# 这里只是 camera_info 不可用时的回落值
+camera_matrix: [
+  1.159420e+03, 0.0,           4.800000e+02,
+  0.0,          1.159420e+03,  3.600000e+02,
+  0.0,          0.0,           1.0
+]
+dist_coeffs: [0.0, 0.0, 0.0, 0.0, 0.0]
+
+# 主画面（1920×1080）的标称值，备用参考：fx=fy=1159.420、cx=960、cy=540
+# ROS 图是它中央 1:1 裁出来的，所以焦距不变、光心平移到 480/360
+
+# ── 离线测试视频 ────────────────────────────────────────────────────────────
+# 这段只给离线跑视频的 auto_aim 用。内参是【另一台相机】的：仓库自带测试视频
+# 是 1440×1080、8mm 镜头，对应它自己 camera.json 里的值 —— 拿手册那套 960×720
+# 的内参去解 1440×1080 的视频，PnP 出来的距离和框都会偏
+video:
+  path: "/home/king/下载/26_NNDeployment_Lib_and_Detection_Models-main(1)/26_NNDeployment_Lib_and_Detection_Models-main/测试视频/远处旋转平移.avi"
+  camera_matrix: [
+    2.3199e+03, 0.0,        7.214435e+02,
+    0.0,        2.3227e+03, 6.063215e+02,
+    0.0,        0.0,        1.0
+  ]
+  dist_coeffs: [-0.0859, 1.065, -0.0011, -0.0016, 0.0]

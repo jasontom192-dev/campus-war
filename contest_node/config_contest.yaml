@@ -1,0 +1,49 @@
+# 比赛节点配置（auto_aim_node）
+# 内参优先用同帧 camera_info；取不到用 fx=fy=1159.420、cx=480、cy=360
+# 改完重启节点；enemy_color 会被 ROS 参数覆盖，改本文件无效
+enemy_color: "red"
+model_path: "/home/king/tdt-learning4.5/models/infantry_v8n.engine"
+score_threshold: 0.5
+
+# 开火：指令不突变 + 云台到位 + 瞄准有效；距离大于 judge_distance 时用 second_tolerance
+first_tolerance: 3.0
+second_tolerance: 2.0
+judge_distance: 2.0
+
+# 搜索转速、暂丢容忍帧数、进入跟踪所需的连续检测帧数
+search_yaw_rate: 150.0
+max_temp_lost_count: 15
+min_detect_count: 5
+
+# 超过此水平距离不给射击许可，仍锁定和瞄准；0 或负数不限
+max_fire_distance: 4.0
+
+# 底盘速度门（Unity 单位/s）；>0 时车没停稳不开火，<=0 关闭
+fire_max_chassis_speed: 0.0
+
+# 换板后等待秒数，只对车生效；0 关闭
+plate_switch_settle_s: 0.06
+
+# 前哨站锁定后等待秒数，等 dz 收敛；只挡开火，不挡瞄准
+outpost_settle_s: 4.0
+
+# 弹量 <= 此值视为打空；游戏不填该字段时设为 -1 关闭
+min_ammo_to_fire: 0
+
+# 打符：检测 + CampusRune（上游 RP-26Rune）；算法参数在 third_party/campus-rune/config/power_rune.json
+rune:
+  mode: "auto"
+  model_path: "/home/king/tdt-learning4.5/models/rune_v8n.engine"
+  score_threshold: 0.5
+  target_color: "auto"
+  rune_active_s: 22.0
+  max_small_runes: 2
+  request_retry_s: 2.0
+  lost_tolerance_frames: 60
+
+
+
+  # 搜索俯仰范围（度；正=俯视，负=仰视）
+  search_pitch_min_deg: 10.0
+  search_pitch_max_deg: -35.0
+  search_pitch_cycles: 2.4

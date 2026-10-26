@@ -1,0 +1,295 @@
+[0.000000] (-) TimerEvent: {}
+[0.000136] (-) JobUnselected: {'identifier': 'tdt_interface'}
+[0.000173] (auto_aim_contest) JobQueued: {'identifier': 'auto_aim_contest', 'dependencies': OrderedDict({'tdt_interface': '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface'})}
+[0.000303] (auto_aim_contest) JobStarted: {'identifier': 'auto_aim_contest'}
+[0.008334] (auto_aim_contest) JobProgress: {'identifier': 'auto_aim_contest', 'progress': 'cmake'}
+[0.008824] (auto_aim_contest) JobProgress: {'identifier': 'auto_aim_contest', 'progress': 'build'}
+[0.009362] (auto_aim_contest) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest', '--', '-j24', '-l24'], 'cwd': '/home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'ANTHROPIC_MODEL': 'deepseek-flash[1m]', 'AI_AGENT': 'claude-code_2-1-191_agent', 'LANGUAGE': 'zh_CN:en', 'USER': 'king', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'LC_TIME': 'en_US.UTF-8', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface/lib:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface/lib:/home/king/task4_ws/install/task4_sensors/lib:/home/king/task4_ws/install/task4_recorder/lib:/home/king/task3_ws/install/task3_interfaces/lib:/home/king/task2_ws/install/task2_image_component/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib', 'HOME': '/home/king', 'DESKTOP_SESSION': 'ubuntu', 'ANTHROPIC_DEFAULT_SONNET_MODEL': 'deepseek-flash[1m]', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'CLAUDE_CODE_CHILD_SESSION': '1', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '2871', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/king/tdt-learning4.5/tdt_contest_ws/install:/home/king/tdt-learning4.3/tdt_contest_ws/install:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install:/home/king/task4_ws/install:/home/king/task3_ws/install:/home/king/task2_ws/install:/home/king/ros2_task1_ws/install', 'CLAUDE_CODE_EFFORT_LEVEL': 'max', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'king', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/usr/local/lib/pkgconfig:', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'king', 'ANTHROPIC_BASE_URL': 'https://api.deepseek.com/anthropic', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'ANTHROPIC_DEFAULT_OPUS_MODEL': 'deepseek-flash[1m]', 'PATH': '/home/king/task4_ws/install/task4_recorder/bin:/opt/ros/jazzy/bin:/home/king/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/king-Legion-Y7000-IRX10:@/tmp/.ICE-unix/2826,unix/king-Legion-Y7000-IRX10:/tmp/.ICE-unix/2826', 'ANTHROPIC_API_KEY': 'sk-a04366e1fc8a43ea9ecdcb2963660481', 'PAPERSIZE': 'letter', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d3177648_f5e7_489d_9290_a72a1badb4be', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CLAUDE_EFFORT': 'max', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'ANTHROPIC_DEFAULT_HAIKU_MODEL': 'deepseek-flash[1m]', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface:/home/king/tdt-learning4.3/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint:/home/king/ros2_task1_ws/install/task1_pkg:/home/king/task4_ws/install/task4_sensors:/home/king/task4_ws/install/task4_recorder:/home/king/task3_ws/install/task3_nodes:/home/king/task3_ws/install/task3_interfaces:/home/king/task2_ws/install/task2_image_component:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'ANTHROPIC_AUTH_TOKEN': 'sk-a04366e1fc8a43ea9ecdcb2963660481', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_SESSION_ID': 'b4f99360-7a3e-4468-a156-719772f5918a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/usr/local/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe', 'PYTHONPATH': '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface/lib/python3.12/site-packages:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint/lib/python3.12/site-packages:/home/king/task3_ws/install/task3_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CLAUDE_CODE_SUBAGENT_MODEL': 'deepseek-flash[1m]', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface:/home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.3/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface:/home/king/ros2_task1_ws/install/task1_pkg:/home/king/task4_ws/install/task4_sensors:/home/king/task4_ws/install/task4_recorder:/home/king/task3_ws/install/task3_nodes:/home/king/task3_ws/install/task3_interfaces:/home/king/task2_ws/install/task2_image_component:/opt/ros/jazzy:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint'}), 'shell': False}
+[0.032921] (auto_aim_contest) StdoutLine: {'line': b'[  5%] Built target NNdeployment_mpt_lib\n'}
+[0.037318] (auto_aim_contest) StdoutLine: {'line': b'[ 13%] Built target navgrid_test\n'}
+[0.044536] (auto_aim_contest) StdoutLine: {'line': b'[ 28%] Built target NNdeployment_lib\n'}
+[0.052413] (auto_aim_contest) StdoutLine: {'line': b'[ 31%] Building CXX object rp26_rune/CMakeFiles/rp26_rune.dir/power_rune/interface/power_rune_interface.cpp.o\n'}
+[0.053269] (auto_aim_contest) StdoutLine: {'line': b'[ 34%] Building CXX object rp26_rune/CMakeFiles/rp26_rune.dir/power_rune/src/PowerRuneProcessor.cpp.o\n'}
+[0.054372] (auto_aim_contest) StdoutLine: {'line': b'[ 36%] Building CXX object rp26_rune/CMakeFiles/rp26_rune.dir/power_rune/src/RuneDecisionModule.cpp.o\n'}
+[0.099364] (-) TimerEvent: {}
+[0.199538] (-) TimerEvent: {}
+[0.299739] (-) TimerEvent: {}
+[0.399934] (-) TimerEvent: {}
+[0.500107] (-) TimerEvent: {}
+[0.600280] (-) TimerEvent: {}
+[0.700450] (-) TimerEvent: {}
+[0.800630] (-) TimerEvent: {}
+[0.900839] (-) TimerEvent: {}
+[1.001040] (-) TimerEvent: {}
+[1.101257] (-) TimerEvent: {}
+[1.201445] (-) TimerEvent: {}
+[1.301627] (-) TimerEvent: {}
+[1.401804] (-) TimerEvent: {}
+[1.502003] (-) TimerEvent: {}
+[1.602215] (-) TimerEvent: {}
+[1.702426] (-) TimerEvent: {}
+[1.802607] (-) TimerEvent: {}
+[1.902808] (-) TimerEvent: {}
+[2.003011] (-) TimerEvent: {}
+[2.103254] (-) TimerEvent: {}
+[2.203512] (-) TimerEvent: {}
+[2.303689] (-) TimerEvent: {}
+[2.403892] (-) TimerEvent: {}
+[2.504115] (-) TimerEvent: {}
+[2.604331] (-) TimerEvent: {}
+[2.704510] (-) TimerEvent: {}
+[2.804698] (-) TimerEvent: {}
+[2.904918] (-) TimerEvent: {}
+[3.005081] (-) TimerEvent: {}
+[3.105277] (-) TimerEvent: {}
+[3.205429] (-) TimerEvent: {}
+[3.305626] (-) TimerEvent: {}
+[3.405786] (-) TimerEvent: {}
+[3.505975] (-) TimerEvent: {}
+[3.606160] (-) TimerEvent: {}
+[3.706328] (-) TimerEvent: {}
+[3.806503] (-) TimerEvent: {}
+[3.906704] (-) TimerEvent: {}
+[4.006899] (-) TimerEvent: {}
+[4.107074] (-) TimerEvent: {}
+[4.145320] (auto_aim_contest) StdoutLine: {'line': b'[ 39%] Linking CXX static library librp26_rune.a\n'}
+[4.181445] (auto_aim_contest) StdoutLine: {'line': b'[ 68%] Built target rp26_rune\n'}
+[4.207189] (-) TimerEvent: {}
+[4.239311] (auto_aim_contest) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/auto_aim_node.dir/home/king/tdt-learning4.5/src/rune_rp26.cpp.o\n'}
+[4.240630] (auto_aim_contest) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/auto_aim_node.dir/src/auto_aim_node.cpp.o\n'}
+[4.307307] (-) TimerEvent: {}
+[4.407458] (-) TimerEvent: {}
+[4.507601] (-) TimerEvent: {}
+[4.607780] (-) TimerEvent: {}
+[4.707951] (-) TimerEvent: {}
+[4.808176] (-) TimerEvent: {}
+[4.908327] (-) TimerEvent: {}
+[5.008484] (-) TimerEvent: {}
+[5.108637] (-) TimerEvent: {}
+[5.208799] (-) TimerEvent: {}
+[5.308952] (-) TimerEvent: {}
+[5.409103] (-) TimerEvent: {}
+[5.509257] (-) TimerEvent: {}
+[5.609396] (-) TimerEvent: {}
+[5.709549] (-) TimerEvent: {}
+[5.809692] (-) TimerEvent: {}
+[5.909840] (-) TimerEvent: {}
+[6.010014] (-) TimerEvent: {}
+[6.110215] (-) TimerEvent: {}
+[6.210423] (-) TimerEvent: {}
+[6.310572] (-) TimerEvent: {}
+[6.410736] (-) TimerEvent: {}
+[6.510906] (-) TimerEvent: {}
+[6.611076] (-) TimerEvent: {}
+[6.711254] (-) TimerEvent: {}
+[6.811451] (-) TimerEvent: {}
+[6.911601] (-) TimerEvent: {}
+[7.011771] (-) TimerEvent: {}
+[7.111938] (-) TimerEvent: {}
+[7.212112] (-) TimerEvent: {}
+[7.312284] (-) TimerEvent: {}
+[7.412421] (-) TimerEvent: {}
+[7.512585] (-) TimerEvent: {}
+[7.612749] (-) TimerEvent: {}
+[7.712922] (-) TimerEvent: {}
+[7.813089] (-) TimerEvent: {}
+[7.913235] (-) TimerEvent: {}
+[8.013418] (-) TimerEvent: {}
+[8.113561] (-) TimerEvent: {}
+[8.213709] (-) TimerEvent: {}
+[8.313857] (-) TimerEvent: {}
+[8.414049] (-) TimerEvent: {}
+[8.514221] (-) TimerEvent: {}
+[8.614402] (-) TimerEvent: {}
+[8.714564] (-) TimerEvent: {}
+[8.814742] (-) TimerEvent: {}
+[8.914935] (-) TimerEvent: {}
+[9.015108] (-) TimerEvent: {}
+[9.115282] (-) TimerEvent: {}
+[9.215456] (-) TimerEvent: {}
+[9.315610] (-) TimerEvent: {}
+[9.415783] (-) TimerEvent: {}
+[9.515972] (-) TimerEvent: {}
+[9.616150] (-) TimerEvent: {}
+[9.716333] (-) TimerEvent: {}
+[9.816494] (-) TimerEvent: {}
+[9.916649] (-) TimerEvent: {}
+[10.016833] (-) TimerEvent: {}
+[10.117002] (-) TimerEvent: {}
+[10.217228] (-) TimerEvent: {}
+[10.317416] (-) TimerEvent: {}
+[10.417565] (-) TimerEvent: {}
+[10.517748] (-) TimerEvent: {}
+[10.617940] (-) TimerEvent: {}
+[10.718092] (-) TimerEvent: {}
+[10.818262] (-) TimerEvent: {}
+[10.918446] (-) TimerEvent: {}
+[11.018589] (-) TimerEvent: {}
+[11.118760] (-) TimerEvent: {}
+[11.218936] (-) TimerEvent: {}
+[11.319167] (-) TimerEvent: {}
+[11.419313] (-) TimerEvent: {}
+[11.519469] (-) TimerEvent: {}
+[11.619621] (-) TimerEvent: {}
+[11.719793] (-) TimerEvent: {}
+[11.819936] (-) TimerEvent: {}
+[11.920086] (-) TimerEvent: {}
+[12.020239] (-) TimerEvent: {}
+[12.120440] (-) TimerEvent: {}
+[12.220597] (-) TimerEvent: {}
+[12.320774] (-) TimerEvent: {}
+[12.420976] (-) TimerEvent: {}
+[12.521162] (-) TimerEvent: {}
+[12.621315] (-) TimerEvent: {}
+[12.721492] (-) TimerEvent: {}
+[12.821639] (-) TimerEvent: {}
+[12.921780] (-) TimerEvent: {}
+[13.021923] (-) TimerEvent: {}
+[13.122084] (-) TimerEvent: {}
+[13.222272] (-) TimerEvent: {}
+[13.322383] (-) TimerEvent: {}
+[13.422521] (-) TimerEvent: {}
+[13.522664] (-) TimerEvent: {}
+[13.622855] (-) TimerEvent: {}
+[13.723015] (-) TimerEvent: {}
+[13.823172] (-) TimerEvent: {}
+[13.923350] (-) TimerEvent: {}
+[14.023483] (-) TimerEvent: {}
+[14.123616] (-) TimerEvent: {}
+[14.223775] (-) TimerEvent: {}
+[14.323920] (-) TimerEvent: {}
+[14.424085] (-) TimerEvent: {}
+[14.524226] (-) TimerEvent: {}
+[14.624424] (-) TimerEvent: {}
+[14.724567] (-) TimerEvent: {}
+[14.824722] (-) TimerEvent: {}
+[14.924912] (-) TimerEvent: {}
+[15.025091] (-) TimerEvent: {}
+[15.125262] (-) TimerEvent: {}
+[15.225424] (-) TimerEvent: {}
+[15.325566] (-) TimerEvent: {}
+[15.425716] (-) TimerEvent: {}
+[15.525894] (-) TimerEvent: {}
+[15.626048] (-) TimerEvent: {}
+[15.726239] (-) TimerEvent: {}
+[15.826445] (-) TimerEvent: {}
+[15.926590] (-) TimerEvent: {}
+[16.026765] (-) TimerEvent: {}
+[16.126931] (-) TimerEvent: {}
+[16.227098] (-) TimerEvent: {}
+[16.327270] (-) TimerEvent: {}
+[16.427430] (-) TimerEvent: {}
+[16.527574] (-) TimerEvent: {}
+[16.627743] (-) TimerEvent: {}
+[16.727912] (-) TimerEvent: {}
+[16.828079] (-) TimerEvent: {}
+[16.928249] (-) TimerEvent: {}
+[17.028425] (-) TimerEvent: {}
+[17.128597] (-) TimerEvent: {}
+[17.228776] (-) TimerEvent: {}
+[17.328939] (-) TimerEvent: {}
+[17.429131] (-) TimerEvent: {}
+[17.529299] (-) TimerEvent: {}
+[17.629432] (-) TimerEvent: {}
+[17.729583] (-) TimerEvent: {}
+[17.829742] (-) TimerEvent: {}
+[17.929893] (-) TimerEvent: {}
+[18.030163] (-) TimerEvent: {}
+[18.130334] (-) TimerEvent: {}
+[18.230476] (-) TimerEvent: {}
+[18.330611] (-) TimerEvent: {}
+[18.430750] (-) TimerEvent: {}
+[18.530893] (-) TimerEvent: {}
+[18.631028] (-) TimerEvent: {}
+[18.731167] (-) TimerEvent: {}
+[18.831305] (-) TimerEvent: {}
+[18.931459] (-) TimerEvent: {}
+[19.031598] (-) TimerEvent: {}
+[19.131760] (-) TimerEvent: {}
+[19.231936] (-) TimerEvent: {}
+[19.332107] (-) TimerEvent: {}
+[19.432272] (-) TimerEvent: {}
+[19.532470] (-) TimerEvent: {}
+[19.632614] (-) TimerEvent: {}
+[19.732748] (-) TimerEvent: {}
+[19.832909] (-) TimerEvent: {}
+[19.933077] (-) TimerEvent: {}
+[20.033239] (-) TimerEvent: {}
+[20.133399] (-) TimerEvent: {}
+[20.233538] (-) TimerEvent: {}
+[20.333691] (-) TimerEvent: {}
+[20.433861] (-) TimerEvent: {}
+[20.534023] (-) TimerEvent: {}
+[20.634193] (-) TimerEvent: {}
+[20.734360] (-) TimerEvent: {}
+[20.834506] (-) TimerEvent: {}
+[20.934644] (-) TimerEvent: {}
+[21.034805] (-) TimerEvent: {}
+[21.134946] (-) TimerEvent: {}
+[21.235112] (-) TimerEvent: {}
+[21.335275] (-) TimerEvent: {}
+[21.435477] (-) TimerEvent: {}
+[21.535624] (-) TimerEvent: {}
+[21.635790] (-) TimerEvent: {}
+[21.735957] (-) TimerEvent: {}
+[21.836117] (-) TimerEvent: {}
+[21.936276] (-) TimerEvent: {}
+[22.036434] (-) TimerEvent: {}
+[22.136566] (-) TimerEvent: {}
+[22.236738] (-) TimerEvent: {}
+[22.336890] (-) TimerEvent: {}
+[22.437085] (-) TimerEvent: {}
+[22.537256] (-) TimerEvent: {}
+[22.637421] (-) TimerEvent: {}
+[22.737564] (-) TimerEvent: {}
+[22.837701] (-) TimerEvent: {}
+[22.937876] (-) TimerEvent: {}
+[23.038055] (-) TimerEvent: {}
+[23.138235] (-) TimerEvent: {}
+[23.238412] (-) TimerEvent: {}
+[23.338580] (-) TimerEvent: {}
+[23.438753] (-) TimerEvent: {}
+[23.538917] (-) TimerEvent: {}
+[23.639075] (-) TimerEvent: {}
+[23.739239] (-) TimerEvent: {}
+[23.839400] (-) TimerEvent: {}
+[23.939545] (-) TimerEvent: {}
+[24.039685] (-) TimerEvent: {}
+[24.139824] (-) TimerEvent: {}
+[24.239957] (-) TimerEvent: {}
+[24.340125] (-) TimerEvent: {}
+[24.440285] (-) TimerEvent: {}
+[24.540425] (-) TimerEvent: {}
+[24.640582] (-) TimerEvent: {}
+[24.740750] (-) TimerEvent: {}
+[24.840913] (-) TimerEvent: {}
+[24.849066] (auto_aim_contest) StdoutLine: {'line': b'[ 76%] Linking CXX executable auto_aim_node\n'}
+[24.940998] (-) TimerEvent: {}
+[25.041173] (-) TimerEvent: {}
+[25.071582] (auto_aim_contest) StdoutLine: {'line': b'[100%] Built target auto_aim_node\n'}
+[25.074840] (auto_aim_contest) CommandEnded: {'returncode': 0}
+[25.075607] (auto_aim_contest) JobProgress: {'identifier': 'auto_aim_contest', 'progress': 'install'}
+[25.077811] (auto_aim_contest) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest'], 'cwd': '/home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'ANTHROPIC_MODEL': 'deepseek-flash[1m]', 'AI_AGENT': 'claude-code_2-1-191_agent', 'LANGUAGE': 'zh_CN:en', 'USER': 'king', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'LC_TIME': 'en_US.UTF-8', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface/lib:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface/lib:/home/king/task4_ws/install/task4_sensors/lib:/home/king/task4_ws/install/task4_recorder/lib:/home/king/task3_ws/install/task3_interfaces/lib:/home/king/task2_ws/install/task2_image_component/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib', 'HOME': '/home/king', 'DESKTOP_SESSION': 'ubuntu', 'ANTHROPIC_DEFAULT_SONNET_MODEL': 'deepseek-flash[1m]', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'CLAUDE_CODE_CHILD_SESSION': '1', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '2871', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/king/tdt-learning4.5/tdt_contest_ws/install:/home/king/tdt-learning4.3/tdt_contest_ws/install:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install:/home/king/task4_ws/install:/home/king/task3_ws/install:/home/king/task2_ws/install:/home/king/ros2_task1_ws/install', 'CLAUDE_CODE_EFFORT_LEVEL': 'max', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'king', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/usr/local/lib/pkgconfig:', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'king', 'ANTHROPIC_BASE_URL': 'https://api.deepseek.com/anthropic', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'ANTHROPIC_DEFAULT_OPUS_MODEL': 'deepseek-flash[1m]', 'PATH': '/home/king/task4_ws/install/task4_recorder/bin:/opt/ros/jazzy/bin:/home/king/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/king-Legion-Y7000-IRX10:@/tmp/.ICE-unix/2826,unix/king-Legion-Y7000-IRX10:/tmp/.ICE-unix/2826', 'ANTHROPIC_API_KEY': 'sk-a04366e1fc8a43ea9ecdcb2963660481', 'PAPERSIZE': 'letter', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d3177648_f5e7_489d_9290_a72a1badb4be', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CLAUDE_EFFORT': 'max', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'ANTHROPIC_DEFAULT_HAIKU_MODEL': 'deepseek-flash[1m]', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface:/home/king/tdt-learning4.3/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint:/home/king/ros2_task1_ws/install/task1_pkg:/home/king/task4_ws/install/task4_sensors:/home/king/task4_ws/install/task4_recorder:/home/king/task3_ws/install/task3_nodes:/home/king/task3_ws/install/task3_interfaces:/home/king/task2_ws/install/task2_image_component:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'ANTHROPIC_AUTH_TOKEN': 'sk-a04366e1fc8a43ea9ecdcb2963660481', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_SESSION_ID': 'b4f99360-7a3e-4468-a156-719772f5918a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/usr/local/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe', 'PYTHONPATH': '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface/lib/python3.12/site-packages:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface/lib/python3.12/site-packages:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint/lib/python3.12/site-packages:/home/king/task3_ws/install/task3_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CLAUDE_CODE_SUBAGENT_MODEL': 'deepseek-flash[1m]', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface:/home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.3/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface:/home/king/ros2_task1_ws/install/task1_pkg:/home/king/task4_ws/install/task4_sensors:/home/king/task4_ws/install/task4_recorder:/home/king/task3_ws/install/task3_nodes:/home/king/task3_ws/install/task3_interfaces:/home/king/task2_ws/install/task2_image_component:/opt/ros/jazzy:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint'}), 'shell': False}
+[25.080789] (auto_aim_contest) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[25.081456] (auto_aim_contest) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.081851] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/lib/auto_aim_contest/navgrid_test\n'}
+[25.082035] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/lib/auto_aim_contest/auto_aim_node\n'}
+[25.082168] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/config_contest.yaml\n'}
+[25.082307] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/ament_index/resource_index/package_run_dependencies/auto_aim_contest\n'}
+[25.082441] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/ament_index/resource_index/parent_prefix_path/auto_aim_contest\n'}
+[25.082561] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/environment/ament_prefix_path.sh\n'}
+[25.082681] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/environment/ament_prefix_path.dsv\n'}
+[25.082796] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/environment/path.sh\n'}
+[25.082910] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/environment/path.dsv\n'}
+[25.083020] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/local_setup.bash\n'}
+[25.083131] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/local_setup.sh\n'}
+[25.083240] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/local_setup.zsh\n'}
+[25.083351] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/local_setup.dsv\n'}
+[25.083440] (auto_aim_contest) StdoutLine: {'line': b'-- Symlinking: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/package.dsv\n'}
+[25.085554] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/ament_index/resource_index/packages/auto_aim_contest\n'}
+[25.085676] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/cmake/auto_aim_contestConfig.cmake\n'}
+[25.085759] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/cmake/auto_aim_contestConfig-version.cmake\n'}
+[25.085846] (auto_aim_contest) StdoutLine: {'line': b'-- Up-to-date symlink: /home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest/share/auto_aim_contest/package.xml\n'}
+[25.086759] (auto_aim_contest) CommandEnded: {'returncode': 0}
+[25.100032] (auto_aim_contest) JobEnded: {'identifier': 'auto_aim_contest', 'rc': 0}
+[25.100387] (-) EventReactorShutdown: {}

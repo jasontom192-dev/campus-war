@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tdt_interface/msg/SendData.msg
+// generated code does not contain a copyright notice
+
+
+module tdt_interface {
+  module msg {
+    struct SendData {
+      @verbatim (language="comment", text=
+        "World optical yaw in degrees: Unity +Z = 0, clockwise positive; chassis-decoupled.")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        "World optical pitch in degrees: downward positive, range [-60, 60].")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        "Fire permission paired with these angles; actuator alignment gates actual shots.")
+      boolean if_shoot;
+    };
+  };
+};

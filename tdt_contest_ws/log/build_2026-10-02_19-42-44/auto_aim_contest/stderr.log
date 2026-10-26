@@ -1,0 +1,39 @@
+In file included from /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.cpp:2:
+/home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp: In member function ‘std::pair<int, int> NavGrid::cell_of(double, double) const’:
+/home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp:39:35: error: ‘llround’ is not a member of ‘std’
+   39 |     return {static_cast<int>(std::llround((x - fx0) / res)),
+      |                                   ^~~~~~~
+/home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp:40:35: error: ‘llround’ is not a member of ‘std’
+   40 |             static_cast<int>(std::llround((z - fz0) / res))};
+      |                                   ^~~~~~~
+/home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp:40:60: error: could not convert ‘{<expression error>, <expression error>}’ from ‘<brace-enclosed initializer list>’ to ‘std::pair<int, int>’
+   40 |             static_cast<int>(std::llround((z - fz0) / res))};
+      |                                                            ^
+      |                                                            |
+      |                                                            <brace-enclosed initializer list>
+In file included from /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.cpp:2:
+/home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp: In member function ‘std::pair<int, int> NavGrid::cell_of(double, double) const’:
+/home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp:39:35: error: ‘llround’ is not a member of ‘std’
+   39 |     return {static_cast<int>(std::llround((x - fx0) / res)),
+      |                                   ^~~~~~~
+/home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp:40:35: error: ‘llround’ is not a member of ‘std’
+   40 |             static_cast<int>(std::llround((z - fz0) / res))};
+      |                                   ^~~~~~~
+/home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp:40:60: error: could not convert ‘{<expression error>, <expression error>}’ from ‘<brace-enclosed initializer list>’ to ‘std::pair<int, int>’
+   40 |             static_cast<int>(std::llround((z - fz0) / res))};
+      |                                                            ^
+      |                                                            |
+      |                                                            <brace-enclosed initializer list>
+gmake[2]: *** [CMakeFiles/navgrid_test.dir/build.make:93：CMakeFiles/navgrid_test.dir/src/nav_grid.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:213：CMakeFiles/navgrid_test.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/auto_aim_node.dir/build.make:247：CMakeFiles/auto_aim_node.dir/src/nav_grid.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+/home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/auto_aim_node.cpp: In member function ‘void AutoAimNode::enter_stage(int)’:
+/home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/auto_aim_node.cpp:1033:5: error: ‘waiting_’ was not declared in this scope
+ 1033 |     waiting_ = false;
+      |     ^~~~~~~~
+gmake[2]: *** [CMakeFiles/auto_aim_node.dir/build.make:79：CMakeFiles/auto_aim_node.dir/src/auto_aim_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:181：CMakeFiles/auto_aim_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

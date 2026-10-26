@@ -1,0 +1,598 @@
+[INFO] [1792749888.526592446] [auto_aim_node]: 打符就绪: 算法=RP-26Rune 模式=强制armor 单次窗口=22s 小符最多=2 次 目标颜色=蓝
+[INFO] [1792749888.531604650] [auto_aim_node]: ===== 第 1/17 站：出生点 → Unity(+14.5,-34.5)  完成条件 arrive =====
+[INFO] [1792749888.531643151] [auto_aim_node]: auto_aim_node 启动: player_n=1 敌方=red 发指令=是
+[INFO] [1792749888.531648381] [auto_aim_node]: 开火决策(照 sp_vision_25): 自动开火=是 近距容差=3.0° 远距容差=2.0° 分档=2.0m
+[INFO] [1792749888.531655245] [auto_aim_node]: 状态机: 搜索转速=150°/s 暂丢容忍=15 帧
+[INFO] [1792749888.531659417] [auto_aim_node]: 开火限制: 最大距离=4.0m 弹量门槛=0 发（锁定/跟踪不限距离）
+[WARN] [1792749889.031738341] [auto_aim_node]: 断流 0.50s（帧停了？）
+[WARN] [1792749892.276469431] [auto_aim_node]: 叫符被拒（request_id=0）—— 每 2.0s 自动重试
+[INFO] [1792749892.325711110] [auto_aim_node]: 内参来自 camera_info: fx=1159.420 fy=1159.420 cx=480.000 cy=360.000 (960x720)
+[INFO] [1792749892.636499592] [auto_aim_node]: 处理帧率 97.0 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 94.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=0 | 观测=[无]
+[INFO] [1792749892.895603902] [auto_aim_node]: 处理帧率 105.6 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 104.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=0 | 观测=[无]
+[INFO] [1792749893.147633637] [auto_aim_node]: 处理帧率 117.6 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 117.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=0 | 观测=[无]
+[INFO] [1792749893.394932190] [auto_aim_node]: 处理帧率 119.9 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=0 | 观测=[无]
+[INFO] [1792749893.669954705] [auto_aim_node]: 处理帧率 114.6 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 114.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=0 | 观测=[无]
+[INFO] [1792749893.920667944] [auto_aim_node]: 处理帧率 114.1 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 114.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=0 | 观测=[无]
+[INFO] [1792749894.170380285] [auto_aim_node]: 处理帧率 120.1 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 120.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=0 | 观测=[无]
+[INFO] [1792749894.387117238] [auto_aim_node]: 已规划：1 个点、0.0 m  从 (+14.5,-34.5) 到 (+14.5,-34.5)
+[INFO] [1792749894.387188178] [auto_aim_node]: 到点（出生点）
+[INFO] [1792749894.387194790] [auto_aim_node]: ===== 第 2/17 站：打符位·第一轮 → Unity(-15.5,-11.1)  完成条件 rune =====
+[INFO] [1792749894.390406257] [auto_aim_node]: -> 打符模式（RP26 链路：小符，第 0 次开符）
+[INFO] [1792749894.901825123] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=-67.49 pitch=-33.90 | v0=23.5m/s | 等目标回来
+[INFO] [1792749895.232356572] [auto_aim_node]: 已规划：4 个点、13.9 m  从 (+14.5,-34.5) 到 (-15.5,-11.1)
+[INFO] [1792749895.454528466] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749895.953600573] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749896.456055129] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749896.954536683] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749897.478248226] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749897.975080287] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749898.477047958] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749898.976943171] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749899.511546831] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749900.029307228] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749900.528684924] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749901.039980835] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749901.563551926] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749902.078023456] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749902.586531614] [auto_aim_node]: 打符[RP26 小符 第0次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792749902.636141752] [auto_aim_node]: 已到 打符位·第一轮，停住开打，等 rune 条件
+[INFO] [1792749902.636173805] [auto_aim_node]: 到打符位：开始自动叫符（每 2.0s 重试直到受理）
+[INFO] [1792749902.688464584] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888527（2.0s 没受理就重发）
+[INFO] [1792749902.713064483] [auto_aim_node]: ★ 叫符成功（request_id=1792749888527）—— 进入打符模式（本局第 1 次开符）
+[INFO] [1792749903.138232092] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=1 cls1=0 | found=1 fire=0 指令 yaw=37.08 pitch=-32.61 | v0=23.5m/s | RP26未放行
+[INFO] [1792749903.660777935] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=1 cls1=1 | found=1 fire=0 指令 yaw=42.80 pitch=-33.16 | v0=23.5m/s | RP26未放行
+[INFO] [1792749904.170756545] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=1 cls1=1 | found=1 fire=0 指令 yaw=38.38 pitch=-33.01 | v0=23.4m/s | RP26未放行
+[INFO] [1792749904.737775564] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=1 cls1=1 | found=1 fire=0 指令 yaw=48.43 pitch=-25.94 | v0=23.8m/s | RP26未放行
+[INFO] [1792749905.305498745] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=1 cls1=3 | found=1 fire=0 指令 yaw=41.68 pitch=-22.71 | v0=23.5m/s | RP26未放行
+[INFO] [1792749905.966656547] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=1 cls1=4 | found=1 fire=0 指令 yaw=34.21 pitch=-30.59 | v0=23.6m/s | RP26未放行
+[INFO] [1792749906.032140063] [auto_aim_node]: ★ 增益已激活（request_id=1792749888527）—— 这轮符打完了，立即切回车自瞄
+[INFO] [1792749906.085215575] [auto_aim_node]: ★ 打符位·第一轮 完成（rune）→ 下一站
+[INFO] [1792749906.085243914] [auto_aim_node]: ===== 第 3/17 站：三号区域 → Unity(-21.5,+16.5)  完成条件 hp =====
+[INFO] [1792749906.089912826] [auto_aim_node]: 打符窗口结束 -> 回到车自瞄
+[INFO] [1792749906.150985953] [auto_aim_node]: 处理帧率 4.8 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 90.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=0 | 观测=[无]
+[INFO] [1792749906.301241612] [auto_aim_node]: 锁定切换: - → three
+[INFO] [1792749906.301283318] [auto_aim_node]: 状态: 搜索 → 确认
+[INFO] [1792749906.341203901] [auto_aim_node]: 状态: 确认 → 跟踪
+[INFO] [1792749906.411311014] [auto_aim_node]: 处理帧率 4.8 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 103.5 fps | 状态=跟踪 | 锁定=three 9.62m ω-42°/s r=0.196 dr=+0.135 | 开火=否(超距) | 发散重建=4 | 观测=[three/red/0.54/9.3m/small ]
+[INFO] [1792749906.719738897] [auto_aim_node]: 处理帧率 105.5 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 105.7 fps | 状态=跟踪 | 锁定=three 8.90m ω-78°/s r=0.168 dr=-0.067 | 开火=否(超距) | 发散重建=4 | 观测=[three/red/0.88/9.4m/small ]
+[INFO] [1792749906.886845712] [auto_aim_node]: 已规划：7 个点、10.9 m  从 (-15.2,-12.1) 到 (-21.5,+16.5)
+[INFO] [1792749907.018303026] [auto_aim_node]: 处理帧率 98.4 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 98.3 fps | 状态=跟踪 | 锁定=three 9.10m ω+64°/s r=0.149 dr=-0.073 | 开火=否(超距) | 发散重建=4 | 观测=[无]
+[INFO] [1792749907.292631490] [auto_aim_node]: 处理帧率 104.2 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 104.1 fps | 状态=跟踪 | 锁定=three 9.87m ω-90°/s r=0.196 dr=-0.266 发散! | 开火=否 | 发散重建=6 | 观测=[无]
+[INFO] [1792749907.337527055] [auto_aim_node]: 3 号移动 → 行驶目标 Unity(-24.2,+18.8)，重规划
+[INFO] [1792749907.388477053] [auto_aim_node]: 已规划：7 个点、11.5 m  从 (-16.5,-12.0) 到 (-24.2,+18.8)
+[INFO] [1792749907.660020017] [auto_aim_node]: 处理帧率 93.1 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 93.0 fps | 状态=跟踪 | 锁定=three 9.84m ω-234°/s r=0.195 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.59/10.1m/small ]
+[INFO] [1792749907.947019454] [auto_aim_node]: 处理帧率 91.7 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 91.4 fps | 状态=跟踪 | 锁定=three 9.32m ω-47°/s r=0.196 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[无]
+[INFO] [1792749908.212995221] [auto_aim_node]: 处理帧率 108.8 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 108.4 fps | 状态=跟踪 | 锁定=three 9.52m ω+5°/s r=0.196 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.79/9.3m/small ]
+[INFO] [1792749908.340837531] [auto_aim_node]: 3 号移动 → 行驶目标 Unity(-24.6,+22.3)，重规划
+[INFO] [1792749908.382692769] [auto_aim_node]: 已规划：5 个点、10.6 m  从 (-20.8,-8.9) 到 (-24.6,+22.3)
+[INFO] [1792749908.487727075] [auto_aim_node]: 处理帧率 110.8 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 110.6 fps | 状态=跟踪 | 锁定=three 9.43m ω-44°/s r=0.194 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.83/9.1m/small ]
+[INFO] [1792749908.752248598] [auto_aim_node]: 处理帧率 111.4 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 111.4 fps | 状态=跟踪 | 锁定=three 9.45m ω+6°/s r=0.196 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.81/8.3m/small ]
+[INFO] [1792749909.023629245] [auto_aim_node]: 处理帧率 112.1 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 111.9 fps | 状态=跟踪 | 锁定=three 9.11m ω+33°/s r=0.195 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.78/9.1m/small ]
+[INFO] [1792749909.277240664] [auto_aim_node]: 处理帧率 113.9 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 113.9 fps | 状态=跟踪 | 锁定=three 8.90m ω+9°/s r=0.194 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.86/8.7m/small ]
+[INFO] [1792749909.385817991] [auto_aim_node]: 3 号移动 → 行驶目标 Unity(-25.0,+26.2)，重规划
+[INFO] [1792749909.434856461] [auto_aim_node]: 已规划：2 个点、10.0 m  从 (-22.6,-3.5) 到 (-25.0,+26.2)
+[INFO] [1792749909.550583538] [auto_aim_node]: 处理帧率 113.7 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 113.7 fps | 状态=跟踪 | 锁定=three 9.07m ω-26°/s r=0.194 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[无]
+[INFO] [1792749909.809215307] [auto_aim_node]: 处理帧率 112.6 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 112.4 fps | 状态=跟踪 | 锁定=three 8.93m ω+11°/s r=0.197 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.89/8.7m/small ]
+[INFO] [1792749910.097036788] [auto_aim_node]: 处理帧率 109.5 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 109.6 fps | 状态=跟踪 | 锁定=three 8.94m ω-27°/s r=0.194 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.82/8.5m/small ]
+[INFO] [1792749910.373837729] [auto_aim_node]: 处理帧率 106.4 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 106.2 fps | 状态=跟踪 | 锁定=three 8.48m ω+48°/s r=0.195 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.90/8.1m/small ]
+[INFO] [1792749910.649778548] [auto_aim_node]: 处理帧率 108.3 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 108.7 fps | 状态=跟踪 | 锁定=three 7.69m ω+112°/s r=0.192 dr=-0.025 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.88/7.8m/small three/red/0.76/6.7m/small ]
+[INFO] [1792749910.899039395] [auto_aim_node]: 处理帧率 114.2 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 114.2 fps | 状态=跟踪 | 锁定=three 6.99m ω+93°/s r=0.172 dr=-0.029 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.92/6.7m/small ]
+[INFO] [1792749911.151679756] [auto_aim_node]: 处理帧率 119.5 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 119.7 fps | 状态=跟踪 | 锁定=three 6.27m ω+157°/s r=0.175 dr=-0.031 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.92/5.9m/small ]
+[INFO] [1792749911.398440274] [auto_aim_node]: 处理帧率 119.7 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 120.0 fps | 状态=跟踪 | 锁定=three 5.81m ω+132°/s r=0.181 dr=+0.017 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.88/5.7m/small three/red/0.87/5.1m/small ]
+[INFO] [1792749911.650327924] [auto_aim_node]: 处理帧率 120.1 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 120.4 fps | 状态=跟踪 | 锁定=three 4.98m ω+89°/s r=0.180 dr=+0.024 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.92/5.1m/small three/red/0.80/5.1m/small ]
+[INFO] [1792749911.901193216] [auto_aim_node]: 处理帧率 119.8 fps（模型+PnP+EKF 6.1 ms/帧）| 采集 119.7 fps | 状态=跟踪 | 锁定=three 4.35m ω+38°/s r=0.177 dr=+0.030 | 开火=否(超距) | 发散重建=9 | 观测=[three/red/0.92/4.1m/small ]
+[INFO] [1792749912.158656770] [auto_aim_node]: 处理帧率 118.3 fps（模型+PnP+EKF 5.8 ms/帧）| 采集 118.4 fps | 状态=跟踪 | 锁定=three 3.58m ω-4°/s r=0.177 dr=+0.030 | 开火=是 | 发散重建=9 | 观测=[three/red/0.96/3.3m/small ]
+[INFO] [1792749912.381864499] [auto_aim_node]: 3 号移动 → 行驶目标 Unity(-25.2,+21.2)，重规划
+[INFO] [1792749912.406802816] [auto_aim_node]: 处理帧率 118.2 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 118.3 fps | 状态=跟踪 | 锁定=three 2.83m ω+5°/s r=0.176 dr=+0.031 | 开火=是 | 发散重建=9 | 观测=[three/red/0.92/2.6m/small ]
+[INFO] [1792749912.433043984] [auto_aim_node]: 已规划：3 个点、2.8 m  从 (-24.1,+12.8) 到 (-25.2,+21.2)
+[INFO] [1792749912.676014737] [auto_aim_node]: 处理帧率 116.0 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 115.7 fps | 状态=跟踪 | 锁定=three 2.06m ω+15°/s r=0.176 dr=+0.031 | 开火=是 | 发散重建=9 | 观测=[three/red/0.92/2.0m/small ]
+[INFO] [1792749912.924773898] [auto_aim_node]: 处理帧率 116.5 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 116.4 fps | 状态=跟踪 | 锁定=three 1.47m ω+1°/s r=0.177 dr=+0.029 | 开火=是 | 发散重建=9 | 观测=[three/red/0.95/1.4m/small ]
+[INFO] [1792749913.175594861] [auto_aim_node]: 处理帧率 120.2 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 119.9 fps | 状态=跟踪 | 锁定=three 0.93m ω-2°/s r=0.183 dr=+0.016 | 开火=否(云台未到位) | 发散重建=9 | 观测=[无]
+[INFO] [1792749913.183506726] [auto_aim_node]: 锁定切换: three → -
+[INFO] [1792749913.183553876] [auto_aim_node]: 状态: 跟踪 → 暂丢
+[INFO] [1792749913.184950582] [auto_aim_node]: 进入射程（4.4 < 4.5）→ 停车打 3 号
+[INFO] [1792749913.308061850] [auto_aim_node]: 状态: 暂丢 → 搜索
+[INFO] [1792749913.383291550] [auto_aim_node]: ★ 三号区域 完成（hp）→ 下一站
+[INFO] [1792749913.383321261] [auto_aim_node]: ===== 第 4/17 站：前哨站区域 → Unity(-23.3,+11.1)  完成条件 hp =====
+[INFO] [1792749913.426564087] [auto_aim_node]: 处理帧率 119.6 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749913.674729217] [auto_aim_node]: 处理帧率 120.4 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749913.933674678] [auto_aim_node]: 处理帧率 118.0 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 117.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749914.009659244] [auto_aim_node]: 锁定切换: - → outpost
+[INFO] [1792749914.009711550] [auto_aim_node]: 状态: 搜索 → 确认
+[INFO] [1792749914.049413707] [auto_aim_node]: 状态: 确认 → 跟踪
+[INFO] [1792749914.185180654] [auto_aim_node]: 已规划：3 个点、2.5 m  从 (-24.4,+18.0) 到 (-23.3,+11.1)
+[INFO] [1792749914.235098654] [auto_aim_node]: 处理帧率 106.6 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 106.8 fps | 状态=跟踪 | 锁定=outpost 3.79m v_yaw+3.06rad/s 转向=未定(16/30) dz=0.000/0.000 | 开火=否(前哨站收敛中(0.2/4s)) | 发散重建=9 | 观测=[outpost/red/0.93/3.4m/small ]
+[INFO] [1792749914.366074430] [auto_aim_node]: 前哨站旋转方向: 逆时针 (投票 ccw=18 cw=7, 30 个样本)
+[INFO] [1792749914.519667302] [auto_aim_node]: 处理帧率 102.3 fps（模型+PnP+EKF 6.0 ms/帧）| 采集 102.6 fps | 状态=跟踪 | 锁定=outpost 3.79m v_yaw+2.51rad/s 转向=逆时针 dz=0.000/0.000 | 开火=否(前哨站收敛中(0.5/4s)) | 发散重建=9 | 观测=[outpost/red/0.94/3.3m/small ]
+[INFO] [1792749914.793224582] [auto_aim_node]: 处理帧率 107.3 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 107.4 fps | 状态=跟踪 | 锁定=outpost 3.79m v_yaw+2.51rad/s 转向=逆时针 dz=0.000/0.000 | 开火=否(前哨站收敛中(0.8/4s)) | 发散重建=9 | 观测=[outpost/red/0.85/2.9m/small ]
+[INFO] [1792749915.053293775] [auto_aim_node]: 处理帧率 112.2 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 112.0 fps | 状态=跟踪 | 锁定=outpost 3.45m v_yaw+2.51rad/s 转向=逆时针 dz=0.000/-0.013 | 开火=否(前哨站收敛中(1.0/4s)) | 发散重建=9 | 观测=[outpost/red/0.92/2.9m/small ]
+[INFO] [1792749915.336705256] [auto_aim_node]: 处理帧率 110.2 fps（模型+PnP+EKF 5.9 ms/帧）| 采集 110.5 fps | 状态=跟踪 | 锁定=outpost 3.10m v_yaw+2.51rad/s 转向=逆时针 dz=0.000/-0.022 | 开火=否(前哨站收敛中(1.3/4s)) | 发散重建=9 | 观测=[outpost/red/0.94/2.6m/small ]
+[INFO] [1792749915.381763815] [auto_aim_node]: 已到 前哨站区域，停住开打，等 hp 条件
+[INFO] [1792749915.605513501] [auto_aim_node]: 处理帧率 108.3 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 108.3 fps | 状态=跟踪 | 锁定=outpost 2.94m v_yaw+2.51rad/s 转向=逆时针 dz=0.000/-0.022 | 开火=否(前哨站收敛中(1.6/4s)) | 发散重建=9 | 观测=[outpost/red/0.93/2.4m/small outpost/red/0.59/2.0m/small ]
+[INFO] [1792749915.878012348] [auto_aim_node]: 处理帧率 111.0 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 110.7 fps | 状态=跟踪 | 锁定=outpost 2.91m v_yaw+2.51rad/s 转向=逆时针 dz=0.000/-0.022 | 开火=否(前哨站收敛中(1.9/4s)) | 发散重建=9 | 观测=[outpost/red/0.93/2.3m/small ]
+[INFO] [1792749916.131305143] [auto_aim_node]: 处理帧率 113.7 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 113.9 fps | 状态=跟踪 | 锁定=outpost 2.76m v_yaw+2.51rad/s 转向=逆时针 dz=-0.119/0.027 | 开火=否(前哨站收敛中(2.1/4s)) | 发散重建=9 | 观测=[outpost/red/0.91/2.4m/small ]
+[INFO] [1792749916.387667136] [auto_aim_node]: 处理帧率 118.2 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 118.0 fps | 状态=跟踪 | 锁定=outpost 2.60m v_yaw+2.51rad/s 转向=逆时针 dz=-0.125/0.028 | 开火=否(前哨站收敛中(2.4/4s)) | 发散重建=9 | 观测=[outpost/red/0.89/2.4m/small ]
+[INFO] [1792749916.653745796] [auto_aim_node]: 处理帧率 114.6 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 114.3 fps | 状态=跟踪 | 锁定=outpost 2.51m v_yaw+2.51rad/s 转向=逆时针 dz=-0.125/0.028 | 开火=否(前哨站收敛中(2.6/4s)) | 发散重建=9 | 观测=[outpost/red/0.92/2.5m/small ]
+[INFO] [1792749916.922592573] [auto_aim_node]: 处理帧率 112.1 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 112.1 fps | 状态=跟踪 | 锁定=outpost 2.57m v_yaw+2.51rad/s 转向=逆时针 dz=-0.194/-0.007 | 开火=否(前哨站收敛中(2.9/4s)) | 发散重建=9 | 观测=[outpost/red/0.95/2.4m/small ]
+[INFO] [1792749917.190397102] [auto_aim_node]: 处理帧率 111.7 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 111.7 fps | 状态=跟踪 | 锁定=outpost 2.58m v_yaw+2.51rad/s 转向=逆时针 dz=-0.212/-0.024 | 开火=否(前哨站收敛中(3.2/4s)) | 发散重建=9 | 观测=[outpost/red/0.88/2.4m/small ]
+[INFO] [1792749917.460252804] [auto_aim_node]: 处理帧率 111.2 fps（模型+PnP+EKF 5.8 ms/帧）| 采集 111.3 fps | 状态=跟踪 | 锁定=outpost 2.53m v_yaw+2.51rad/s 转向=逆时针 dz=-0.212/-0.024 | 开火=否(前哨站收敛中(3.4/4s)) | 发散重建=9 | 观测=[outpost/red/0.92/2.3m/small ]
+[INFO] [1792749917.706772376] [auto_aim_node]: 处理帧率 115.7 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 115.7 fps | 状态=跟踪 | 锁定=outpost 2.57m v_yaw+2.51rad/s 转向=逆时针 dz=-0.223/-0.134 | 开火=否(前哨站收敛中(3.7/4s)) | 发散重建=9 | 观测=[outpost/red/0.94/2.3m/small ]
+[INFO] [1792749917.986411285] [auto_aim_node]: 处理帧率 113.5 fps（模型+PnP+EKF 5.8 ms/帧）| 采集 114.1 fps | 状态=跟踪 | 锁定=outpost 2.60m v_yaw+2.51rad/s 转向=逆时针 dz=-0.223/-0.131 | 开火=否(前哨站收敛中(4.0/4s)) | 发散重建=9 | 观测=[outpost/red/0.92/2.4m/small ]
+[INFO] [1792749918.243621724] [auto_aim_node]: 处理帧率 112.1 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 112.0 fps | 状态=跟踪 | 锁定=outpost 2.59m v_yaw+2.51rad/s 转向=逆时针 dz=-0.223/-0.131 | 开火=是 | 发散重建=9 | 观测=[outpost/red/0.90/2.3m/small outpost/red/0.56/2.1m/small ]
+[INFO] [1792749918.520941656] [auto_aim_node]: 处理帧率 112.3 fps（模型+PnP+EKF 5.9 ms/帧）| 采集 112.3 fps | 状态=跟踪 | 锁定=outpost 2.63m v_yaw+2.51rad/s 转向=逆时针 dz=-0.237/-0.121 | 开火=是 | 发散重建=9 | 观测=[outpost/red/0.82/2.4m/small ]
+[INFO] [1792749918.785405274] [auto_aim_node]: 处理帧率 110.4 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 110.3 fps | 状态=跟踪 | 锁定=outpost 2.66m v_yaw+2.51rad/s 转向=逆时针 dz=-0.233/-0.122 | 开火=是 | 发散重建=9 | 观测=[无]
+[INFO] [1792749919.054603245] [auto_aim_node]: 处理帧率 112.4 fps（模型+PnP+EKF 6.0 ms/帧）| 采集 112.1 fps | 状态=跟踪 | 锁定=outpost 2.69m v_yaw+2.51rad/s 转向=逆时针 dz=-0.231/-0.121 | 开火=是 | 发散重建=9 | 观测=[outpost/red/0.88/2.3m/small ]
+[INFO] [1792749919.304359231] [auto_aim_node]: 处理帧率 115.7 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 115.9 fps | 状态=跟踪 | 锁定=outpost 2.66m v_yaw+2.51rad/s 转向=逆时针 dz=-0.248/-0.129 | 开火=是 | 发散重建=9 | 观测=[outpost/red/0.93/2.2m/small ]
+[INFO] [1792749919.560078605] [auto_aim_node]: 处理帧率 118.3 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 118.1 fps | 状态=跟踪 | 锁定=outpost 2.69m v_yaw+2.51rad/s 转向=逆时针 dz=-0.250/-0.131 | 开火=是 | 发散重建=9 | 观测=[outpost/red/0.92/2.5m/small ]
+[INFO] [1792749919.829363448] [auto_aim_node]: 处理帧率 113.9 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 113.7 fps | 状态=跟踪 | 锁定=outpost 2.71m v_yaw+2.51rad/s 转向=逆时针 dz=-0.250/-0.132 | 开火=否(云台未到位) | 发散重建=9 | 观测=[outpost/red/0.89/2.1m/small outpost/red/0.78/2.3m/small ]
+[INFO] [1792749920.080308700] [auto_aim_node]: 处理帧率 115.5 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 115.6 fps | 状态=跟踪 | 锁定=outpost 2.71m v_yaw+2.51rad/s 转向=逆时针 dz=-0.250/-0.132 | 开火=是 | 发散重建=9 | 观测=[无]
+[INFO] [1792749920.338962224] [auto_aim_node]: 处理帧率 117.6 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 117.9 fps | 状态=跟踪 | 锁定=outpost 2.68m v_yaw+2.51rad/s 转向=逆时针 dz=-0.249/-0.128 | 开火=是 | 发散重建=9 | 观测=[无]
+[INFO] [1792749920.597425080] [auto_aim_node]: 处理帧率 115.7 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 115.8 fps | 状态=跟踪 | 锁定=outpost 2.68m v_yaw+2.51rad/s 转向=逆时针 dz=-0.248/-0.128 | 开火=否(云台未到位) | 发散重建=9 | 观测=[outpost/red/0.93/2.7m/small ]
+[INFO] [1792749920.863132659] [auto_aim_node]: 处理帧率 114.3 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 114.2 fps | 状态=跟踪 | 锁定=outpost 2.68m v_yaw+2.51rad/s 转向=逆时针 dz=-0.248/-0.128 | 开火=是 | 发散重建=9 | 观测=[无]
+[INFO] [1792749921.124670203] [auto_aim_node]: 处理帧率 114.0 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 113.7 fps | 状态=跟踪 | 锁定=outpost 2.68m v_yaw+2.51rad/s 转向=逆时针 dz=-0.250/-0.125 | 开火=是 | 发散重建=9 | 观测=[无]
+[INFO] [1792749921.416654114] [auto_aim_node]: 处理帧率 108.3 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 108.4 fps | 状态=跟踪 | 锁定=outpost 2.68m v_yaw+2.51rad/s 转向=逆时针 dz=-0.250/-0.125 | 开火=是 | 发散重建=9 | 观测=[outpost/red/0.93/2.5m/small ]
+[INFO] [1792749921.676157105] [auto_aim_node]: 处理帧率 108.8 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 108.7 fps | 状态=跟踪 | 锁定=outpost 2.68m v_yaw+2.51rad/s 转向=逆时针 dz=-0.250/-0.125 | 开火=是 | 发散重建=9 | 观测=[outpost/red/0.95/2.4m/small ]
+[INFO] [1792749921.933515533] [auto_aim_node]: 处理帧率 115.8 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 116.0 fps | 状态=跟踪 | 锁定=outpost 2.64m v_yaw+2.51rad/s 转向=逆时针 dz=-0.247/-0.126 | 开火=是 | 发散重建=9 | 观测=[outpost/red/0.92/2.4m/small ]
+[INFO] [1792749922.200966600] [auto_aim_node]: 处理帧率 114.1 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 114.1 fps | 状态=跟踪 | 锁定=outpost 2.67m v_yaw+2.51rad/s 转向=逆时针 dz=-0.250/-0.128 | 开火=是 | 发散重建=9 | 观测=[outpost/red/0.90/2.5m/small ]
+[INFO] [1792749922.459851634] [auto_aim_node]: 处理帧率 113.9 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 114.0 fps | 状态=跟踪 | 锁定=outpost 2.67m v_yaw+2.51rad/s 转向=逆时针 dz=-0.250/-0.128 | 开火=是 | 发散重建=9 | 观测=[无]
+[INFO] [1792749922.737224869] [auto_aim_node]: 处理帧率 111.8 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 112.2 fps | 状态=跟踪 | 锁定=outpost 2.66m v_yaw+2.51rad/s 转向=逆时针 dz=-0.249/-0.125 | 开火=是 | 发散重建=9 | 观测=[无]
+[INFO] [1792749923.000555426] [auto_aim_node]: 处理帧率 110.3 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 110.3 fps | 状态=跟踪 | 锁定=outpost 2.68m v_yaw+2.51rad/s 转向=逆时针 dz=-0.250/-0.125 | 开火=是 | 发散重建=9 | 观测=[无]
+[INFO] [1792749923.261342866] [auto_aim_node]: 处理帧率 115.4 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 115.3 fps | 状态=跟踪 | 锁定=outpost 2.68m v_yaw+2.51rad/s 转向=逆时针 dz=-0.250/-0.125 | 开火=是 | 发散重建=9 | 观测=[outpost/red/0.92/2.2m/small ]
+[INFO] [1792749923.517659160] [auto_aim_node]: 处理帧率 116.1 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 116.1 fps | 状态=跟踪 | 锁定=outpost 2.67m v_yaw+2.51rad/s 转向=逆时针 dz=-0.249/-0.126 | 开火=是 | 发散重建=9 | 观测=[outpost/red/0.92/2.4m/small ]
+[INFO] [1792749923.852417310] [auto_aim_node]: 处理帧率 101.3 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 101.2 fps | 状态=跟踪 | 锁定=outpost 2.69m v_yaw+2.51rad/s 转向=逆时针 dz=-0.247/-0.125 | 开火=是 | 发散重建=9 | 观测=[outpost/red/0.80/2.5m/small ]
+[INFO] [1792749924.112019898] [auto_aim_node]: 处理帧率 100.6 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 100.7 fps | 状态=跟踪 | 锁定=outpost 2.69m v_yaw+2.51rad/s 转向=逆时针 dz=-0.247/-0.125 | 开火=是 | 发散重建=9 | 观测=[outpost/red/0.93/2.3m/small ]
+[INFO] [1792749924.310658086] [auto_aim_node]: 锁定切换: outpost → -
+[INFO] [1792749924.310702208] [auto_aim_node]: 状态: 跟踪 → 暂丢
+[INFO] [1792749924.387892220] [auto_aim_node]: 处理帧率 111.8 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 111.8 fps | 状态=暂丢 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749924.387982684] [auto_aim_node]: ★ 前哨站区域 完成（hp，目标已在路上被解决）→ 下一站
+[INFO] [1792749924.387988597] [auto_aim_node]: ===== 第 5/17 站：二号区域 → Unity(-7.4,+7.1)  完成条件 hp =====
+[INFO] [1792749924.453695186] [auto_aim_node]: 锁定切换: - → two
+[INFO] [1792749924.453742639] [auto_aim_node]: 状态: 暂丢 → 跟踪
+[INFO] [1792749924.621921648] [auto_aim_node]: 锁定切换: two → -
+[INFO] [1792749924.621970676] [auto_aim_node]: 状态: 跟踪 → 暂丢
+[INFO] [1792749924.665281928] [auto_aim_node]: 处理帧率 108.1 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 108.1 fps | 状态=暂丢 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749924.775938998] [auto_aim_node]: 状态: 暂丢 → 搜索
+[INFO] [1792749924.950705048] [auto_aim_node]: 处理帧率 106.3 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 106.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749925.023352091] [auto_aim_node]: 锁定切换: - → two
+[INFO] [1792749925.023402037] [auto_aim_node]: 状态: 搜索 → 确认
+[INFO] [1792749925.056503509] [auto_aim_node]: 状态: 确认 → 跟踪
+[INFO] [1792749925.212337478] [auto_aim_node]: 处理帧率 109.9 fps（模型+PnP+EKF 5.9 ms/帧）| 采集 110.0 fps | 状态=跟踪 | 锁定=two 5.41m ω+198°/s r=0.173 dr=+0.056 | 开火=否(超距) | 发散重建=9 | 观测=[two/red/0.84/5.0m/small two/red/0.84/5.5m/small ]
+[INFO] [1792749925.233220521] [auto_aim_node]: 已规划：6 个点、7.4 m  从 (-23.8,+12.2) 到 (-7.4,+7.1)
+[INFO] [1792749925.479317865] [auto_aim_node]: 处理帧率 113.8 fps（模型+PnP+EKF 5.9 ms/帧）| 采集 113.6 fps | 状态=跟踪 | 锁定=two 5.50m ω+97°/s r=0.188 dr=+0.027 | 开火=否(超距) | 发散重建=9 | 观测=[two/red/0.90/5.3m/small ]
+[INFO] [1792749925.719106673] [auto_aim_node]: 锁定切换: two → -
+[INFO] [1792749925.719151880] [auto_aim_node]: 状态: 跟踪 → 暂丢
+[INFO] [1792749925.747153971] [auto_aim_node]: 处理帧率 112.4 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 112.0 fps | 状态=暂丢 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749925.844269079] [auto_aim_node]: 状态: 暂丢 → 搜索
+[INFO] [1792749926.003293847] [auto_aim_node]: 处理帧率 116.4 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 116.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749926.022463244] [auto_aim_node]: 锁定切换: - → two
+[INFO] [1792749926.022514069] [auto_aim_node]: 状态: 搜索 → 确认
+[INFO] [1792749926.060469807] [auto_aim_node]: 状态: 确认 → 跟踪
+[INFO] [1792749926.295856338] [auto_aim_node]: 处理帧率 108.8 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 108.7 fps | 状态=跟踪 | 锁定=two 5.66m ω+99°/s r=0.175 dr=+0.046 | 开火=否(超距) | 发散重建=9 | 观测=[two/red/0.92/5.4m/small ]
+[INFO] [1792749926.571031377] [auto_aim_node]: 处理帧率 105.6 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 105.5 fps | 状态=跟踪 | 锁定=two 5.60m ω+12°/s r=0.176 dr=+0.043 | 开火=否(超距) | 发散重建=9 | 观测=[two/red/0.91/5.3m/small ]
+[INFO] [1792749926.839456417] [auto_aim_node]: 处理帧率 111.9 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 112.1 fps | 状态=跟踪 | 锁定=two 5.41m ω+8°/s r=0.171 dr=+0.055 | 开火=否(超距) | 发散重建=9 | 观测=[two/red/0.90/4.9m/small ]
+[INFO] [1792749927.089542270] [auto_aim_node]: 处理帧率 115.8 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 115.9 fps | 状态=跟踪 | 锁定=two 5.15m ω+10°/s r=0.168 dr=+0.064 | 开火=否(超距) | 发散重建=9 | 观测=[two/red/0.93/4.8m/small ]
+[INFO] [1792749927.342461387] [auto_aim_node]: 处理帧率 118.9 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 119.2 fps | 状态=跟踪 | 锁定=two 4.83m ω+3°/s r=0.166 dr=+0.069 | 开火=否(超距) | 发散重建=9 | 观测=[two/red/0.91/4.6m/small ]
+[INFO] [1792749927.382847719] [auto_aim_node]: 2 号移动 → 行驶目标 Unity(-3.4,+7.6)，重规划
+[INFO] [1792749927.433143981] [auto_aim_node]: 已规划：3 个点、4.8 m  从 (-17.5,+5.3) 到 (-3.4,+7.6)
+[INFO] [1792749927.592228821] [auto_aim_node]: 处理帧率 119.5 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 119.6 fps | 状态=跟踪 | 锁定=two 4.49m ω+4°/s r=0.165 dr=+0.070 | 开火=否(超距) | 发散重建=9 | 观测=[two/red/0.92/4.2m/small ]
+[INFO] [1792749927.856109749] [auto_aim_node]: 处理帧率 116.7 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 116.5 fps | 状态=跟踪 | 锁定=two 4.12m ω-14°/s r=0.165 dr=+0.072 | 开火=否(超距) | 发散重建=9 | 观测=[two/red/0.94/3.9m/small ]
+[INFO] [1792749928.106850004] [auto_aim_node]: 处理帧率 116.1 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 116.5 fps | 状态=跟踪 | 锁定=two 3.74m ω+1°/s r=0.164 dr=+0.072 | 开火=是 | 发散重建=9 | 观测=[two/red/0.95/3.5m/small ]
+[INFO] [1792749928.363410764] [auto_aim_node]: 处理帧率 118.1 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 118.0 fps | 状态=跟踪 | 锁定=two 3.37m ω+12°/s r=0.164 dr=+0.073 | 开火=是 | 发散重建=9 | 观测=[two/red/0.94/3.2m/small ]
+[INFO] [1792749928.615710130] [auto_aim_node]: 处理帧率 117.6 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 117.6 fps | 状态=跟踪 | 锁定=two 2.99m ω-3°/s r=0.164 dr=+0.073 | 开火=是 | 发散重建=9 | 观测=[two/red/0.93/2.8m/small ]
+[INFO] [1792749928.868713541] [auto_aim_node]: 处理帧率 118.7 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 118.9 fps | 状态=跟踪 | 锁定=two 2.63m ω+4°/s r=0.164 dr=+0.072 | 开火=是 | 发散重建=9 | 观测=[无]
+[INFO] [1792749929.131064086] [auto_aim_node]: 处理帧率 117.0 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 116.7 fps | 状态=跟踪 | 锁定=two 2.27m ω+3°/s r=0.164 dr=+0.073 | 开火=是 | 发散重建=9 | 观测=[无]
+[INFO] [1792749929.312165716] [auto_aim_node]: 锁定切换: two → -
+[INFO] [1792749929.312209559] [auto_aim_node]: 状态: 跟踪 → 暂丢
+[INFO] [1792749929.380832717] [auto_aim_node]: 处理帧率 117.0 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 116.8 fps | 状态=暂丢 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749929.436937970] [auto_aim_node]: 状态: 暂丢 → 搜索
+[INFO] [1792749929.630692926] [auto_aim_node]: 处理帧率 120.3 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 120.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749929.731813954] [auto_aim_node]: 进入射程（4.3 < 4.5）→ 停车打 2 号
+[INFO] [1792749929.731845419] [auto_aim_node]: ★ 二号区域 完成（hp）→ 下一站
+[INFO] [1792749929.731851140] [auto_aim_node]: ===== 第 6/17 站：打符位·第二轮 → Unity(-15.5,-11.1)  完成条件 rune =====
+[INFO] [1792749929.735672439] [auto_aim_node]: -> 打符模式（RP26 链路：小符，第 1 次开符）
+[INFO] [1792749930.141050856] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=73.68 pitch=-4.00 | v0=23.4m/s | 等目标回来
+[INFO] [1792749930.582801244] [auto_aim_node]: 已规划：8 个点、12.3 m  从 (-3.8,+7.0) 到 (-15.5,-11.1)
+[INFO] [1792749930.641433302] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749931.139927591] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749931.641365564] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749932.141749415] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749932.640379563] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749933.142811403] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749933.641388634] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749934.141591439] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749934.657888927] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749935.169216869] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749935.676217985] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749936.220728734] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749936.751669987] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749937.334865126] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749937.383868820] [auto_aim_node]: 已到 打符位·第二轮，停住开打，等 rune 条件
+[INFO] [1792749937.383897627] [auto_aim_node]: 到打符位：开始自动叫符（每 2.0s 重试直到受理）
+[INFO] [1792749937.434529291] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888528（2.0s 没受理就重发）
+[WARN] [1792749937.444993420] [auto_aim_node]: 收到 activated=true 但本站还没叫过符（request_id=1792749888528）→ 忽略（上一轮的迟到/重发？）
+[INFO] [1792749937.836204382] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749938.362065491] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749938.905954854] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749939.423800978] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749939.486184026] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888529（2.0s 没受理就重发）
+[WARN] [1792749939.509742825] [auto_aim_node]: 收到 activated=true 但本站还没叫过符（request_id=1792749888529）→ 忽略（上一轮的迟到/重发？）
+[INFO] [1792749939.974408432] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749940.492730249] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749941.026705826] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749941.487281792] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888530（2.0s 没受理就重发）
+[WARN] [1792749941.501534625] [auto_aim_node]: 收到 activated=true 但本站还没叫过符（request_id=1792749888530）→ 忽略（上一轮的迟到/重发？）
+[INFO] [1792749941.559271523] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749942.145356138] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749942.693315734] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749943.237818613] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749943.536047531] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888531（2.0s 没受理就重发）
+[WARN] [1792749943.552190394] [auto_aim_node]: 收到 activated=true 但本站还没叫过符（request_id=1792749888531）→ 忽略（上一轮的迟到/重发？）
+[INFO] [1792749943.793246338] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749944.346753865] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749944.871331549] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749945.421675411] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749945.581774830] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888532（2.0s 没受理就重发）
+[WARN] [1792749945.598575815] [auto_aim_node]: 收到 activated=true 但本站还没叫过符（request_id=1792749888532）→ 忽略（上一轮的迟到/重发？）
+[INFO] [1792749945.960115208] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749946.492647949] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749947.038390641] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749947.563363487] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749947.587766980] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888533（2.0s 没受理就重发）
+[WARN] [1792749947.605768959] [auto_aim_node]: 收到 activated=true 但本站还没叫过符（request_id=1792749888533）→ 忽略（上一轮的迟到/重发？）
+[INFO] [1792749948.081933506] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749948.607583219] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749949.124903161] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749949.633150228] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888534（2.0s 没受理就重发）
+[INFO] [1792749949.640927940] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[WARN] [1792749949.657160548] [auto_aim_node]: 收到 activated=true 但本站还没叫过符（request_id=1792749888534）→ 忽略（上一轮的迟到/重发？）
+[INFO] [1792749950.183090392] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749950.709132888] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[WARN] [1792749951.033197270] [auto_aim_node]: 叫符被拒（request_id=1792749888534）—— 每 2.0s 自动重试
+[INFO] [1792749951.234142909] [auto_aim_node]: 打符[RP26 小符 第1次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.4m/s | 搜索
+[INFO] [1792749951.636386089] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888535（2.0s 没受理就重发）
+[INFO] [1792749951.653623408] [auto_aim_node]: ★ 叫符成功（request_id=1792749888535）—— 进入打符模式（本局第 2 次开符）
+[INFO] [1792749951.769398459] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=1 cls1=0 | found=1 fire=0 指令 yaw=43.11 pitch=-20.53 | v0=23.4m/s | RP26未放行
+[INFO] [1792749952.384856616] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=1 cls1=1 | found=1 fire=0 指令 yaw=35.82 pitch=-32.92 | v0=23.5m/s | RP26未放行
+[INFO] [1792749952.949596482] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=1 cls1=2 | found=1 fire=0 指令 yaw=41.36 pitch=-33.80 | v0=23.4m/s | RP26未放行
+[INFO] [1792749953.514109133] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=1 cls1=2 | found=1 fire=0 指令 yaw=36.48 pitch=-33.08 | v0=23.4m/s | RP26未放行
+[INFO] [1792749954.106793515] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=1 cls1=3 | found=1 fire=0 指令 yaw=47.89 pitch=-27.66 | v0=23.4m/s | RP26未放行
+[INFO] [1792749954.757931752] [auto_aim_node]: ★ 增益已激活（request_id=1792749888535）—— 这轮符打完了，立即切回车自瞄
+[INFO] [1792749954.790471820] [auto_aim_node]: ★ 打符位·第二轮 完成（rune）→ 下一站
+[INFO] [1792749954.790499796] [auto_aim_node]: ===== 第 7/17 站：出生点·补弹 → Unity(+14.5,-34.5)  完成条件 arrive =====
+[INFO] [1792749954.791972675] [auto_aim_node]: 打符窗口结束 -> 回到车自瞄
+[INFO] [1792749954.945140012] [auto_aim_node]: 处理帧率 2.3 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 92.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749955.193476680] [auto_aim_node]: 处理帧率 2.3 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 113.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749955.444619641] [auto_aim_node]: 处理帧率 120.4 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749955.638459157] [auto_aim_node]: 已规划：5 个点、13.4 m  从 (-14.9,-12.0) 到 (+14.5,-34.5)
+[INFO] [1792749955.694319992] [auto_aim_node]: 处理帧率 120.8 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 120.3 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749955.945531249] [auto_aim_node]: 处理帧率 119.6 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 119.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749956.195641274] [auto_aim_node]: 处理帧率 120.0 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 119.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749956.445282313] [auto_aim_node]: 处理帧率 120.5 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 120.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749956.700587082] [auto_aim_node]: 处理帧率 118.9 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 119.3 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749956.961517259] [auto_aim_node]: 处理帧率 116.2 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 116.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749957.221596659] [auto_aim_node]: 处理帧率 115.2 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 114.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749957.473545571] [auto_aim_node]: 处理帧率 117.3 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 117.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749957.732590613] [auto_aim_node]: 处理帧率 117.6 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 117.3 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749957.993960034] [auto_aim_node]: 处理帧率 115.8 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 115.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749958.255935324] [auto_aim_node]: 处理帧率 114.9 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 114.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749958.504128230] [auto_aim_node]: 处理帧率 117.8 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 117.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749958.753759191] [auto_aim_node]: 处理帧率 119.8 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 119.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749959.004380297] [auto_aim_node]: 处理帧率 120.1 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 120.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749959.252723670] [auto_aim_node]: 处理帧率 120.0 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749959.505414108] [auto_aim_node]: 处理帧率 119.8 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749959.755147106] [auto_aim_node]: 处理帧率 119.8 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749960.003924069] [auto_aim_node]: 处理帧率 120.1 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749960.264302871] [auto_aim_node]: 处理帧率 118.0 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 117.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749960.512752719] [auto_aim_node]: 处理帧率 118.0 fps（模型+PnP+EKF 4.4 ms/帧）| 采集 117.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749960.763326287] [auto_aim_node]: 处理帧率 120.6 fps（模型+PnP+EKF 4.5 ms/帧）| 采集 120.5 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749961.013692908] [auto_aim_node]: 处理帧率 120.0 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 120.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749961.265277757] [auto_aim_node]: 处理帧率 119.6 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 119.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749961.514360813] [auto_aim_node]: 处理帧率 120.0 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749961.802180308] [auto_aim_node]: 处理帧率 111.6 fps（模型+PnP+EKF 5.9 ms/帧）| 采集 111.5 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749962.057622928] [auto_aim_node]: 处理帧率 110.7 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 110.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749962.307779122] [auto_aim_node]: 处理帧率 118.5 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 118.3 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749962.557457851] [auto_aim_node]: 处理帧率 120.1 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749962.785198942] [auto_aim_node]: 到点（出生点·补弹）—— 停留 20 秒（补弹/补给）
+[INFO] [1792749962.810372171] [auto_aim_node]: 处理帧率 119.4 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 119.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749963.061599857] [auto_aim_node]: 处理帧率 119.4 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 119.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749963.313825498] [auto_aim_node]: 处理帧率 119.0 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 119.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749963.562724191] [auto_aim_node]: 处理帧率 119.4 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749963.830824860] [auto_aim_node]: 处理帧率 115.7 fps（模型+PnP+EKF 5.9 ms/帧）| 采集 115.5 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749964.140963606] [auto_aim_node]: 处理帧率 103.2 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 103.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749964.389983902] [auto_aim_node]: 处理帧率 107.4 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 107.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749964.641070899] [auto_aim_node]: 处理帧率 119.7 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 119.5 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749964.901928499] [auto_aim_node]: 处理帧率 116.9 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 117.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749965.164814638] [auto_aim_node]: 处理帧率 114.6 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 114.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749965.414120138] [auto_aim_node]: 处理帧率 116.7 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 116.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749965.664837875] [auto_aim_node]: 处理帧率 120.1 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749965.914258221] [auto_aim_node]: 处理帧率 119.9 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749966.174505183] [auto_aim_node]: 处理帧率 117.7 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 118.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749966.431677603] [auto_aim_node]: 处理帧率 116.4 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 116.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749966.690394159] [auto_aim_node]: 处理帧率 116.2 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 116.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749966.941156295] [auto_aim_node]: 处理帧率 117.8 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 117.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749967.270303049] [auto_aim_node]: 处理帧率 103.3 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 103.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749967.521561907] [auto_aim_node]: 处理帧率 103.2 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 103.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749967.772472061] [auto_aim_node]: 处理帧率 119.6 fps（模型+PnP+EKF 4.5 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749968.031454779] [auto_aim_node]: 处理帧率 117.8 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 117.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749968.279362628] [auto_aim_node]: 处理帧率 118.5 fps（模型+PnP+EKF 4.5 ms/帧）| 采集 118.3 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749968.541123381] [auto_aim_node]: 处理帧率 117.4 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 117.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749968.839434852] [auto_aim_node]: 处理帧率 107.2 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 107.3 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749969.089878469] [auto_aim_node]: 处理帧率 109.7 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 108.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749969.340374498] [auto_aim_node]: 处理帧率 120.0 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 119.3 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749969.590445882] [auto_aim_node]: 处理帧率 119.9 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 119.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749969.841451899] [auto_aim_node]: 处理帧率 119.5 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749970.090764736] [auto_aim_node]: 处理帧率 120.2 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749970.342288222] [auto_aim_node]: 处理帧率 120.4 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 120.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749970.591680861] [auto_aim_node]: 处理帧率 119.5 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749970.843383687] [auto_aim_node]: 处理帧率 120.3 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 120.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749971.126827045] [auto_aim_node]: 处理帧率 112.1 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 112.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749971.375185389] [auto_aim_node]: 处理帧率 113.0 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 112.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749971.626385439] [auto_aim_node]: 处理帧率 120.1 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 120.3 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749971.875850290] [auto_aim_node]: 处理帧率 120.5 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 120.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749972.125121039] [auto_aim_node]: 处理帧率 120.1 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749972.377503076] [auto_aim_node]: 处理帧率 119.9 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 119.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749972.628681130] [auto_aim_node]: 处理帧率 119.3 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 119.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749972.880137831] [auto_aim_node]: 处理帧率 118.9 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 119.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749973.128065346] [auto_aim_node]: 处理帧率 120.1 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 119.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749973.377855914] [auto_aim_node]: 处理帧率 120.2 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749973.652871520] [auto_aim_node]: 处理帧率 114.4 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 114.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749973.916679102] [auto_aim_node]: 处理帧率 111.0 fps（模型+PnP+EKF 5.8 ms/帧）| 采集 111.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749974.178829798] [auto_aim_node]: 处理帧率 113.5 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 113.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749974.431492010] [auto_aim_node]: 处理帧率 117.6 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 117.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749974.678721567] [auto_aim_node]: 处理帧率 120.6 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 119.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749974.930819176] [auto_aim_node]: 处理帧率 120.1 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 120.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749975.181636479] [auto_aim_node]: 处理帧率 119.9 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 119.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749975.429982090] [auto_aim_node]: 处理帧率 120.1 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 119.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749975.682535140] [auto_aim_node]: 处理帧率 120.2 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 120.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749975.976389058] [auto_aim_node]: 处理帧率 109.7 fps（模型+PnP+EKF 6.2 ms/帧）| 采集 110.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749976.242230176] [auto_aim_node]: 处理帧率 107.2 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 106.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749976.499511672] [auto_aim_node]: 处理帧率 114.2 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 114.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749976.749175311] [auto_aim_node]: 处理帧率 117.9 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 117.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749977.000291616] [auto_aim_node]: 处理帧率 119.9 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749977.259076525] [auto_aim_node]: 处理帧率 117.9 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 117.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749977.508876107] [auto_aim_node]: 处理帧率 118.1 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 118.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749977.759766404] [auto_aim_node]: 处理帧率 119.8 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749978.009323451] [auto_aim_node]: 处理帧率 119.8 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 119.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749978.260006562] [auto_aim_node]: 处理帧率 120.0 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749978.511791771] [auto_aim_node]: 处理帧率 119.2 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 119.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749978.776595145] [auto_aim_node]: 处理帧率 116.0 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 115.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749979.028152692] [auto_aim_node]: 处理帧率 116.4 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 116.3 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749979.277962607] [auto_aim_node]: 处理帧率 120.2 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 119.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749979.527870479] [auto_aim_node]: 处理帧率 119.8 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 120.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749979.777722758] [auto_aim_node]: 处理帧率 119.9 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 120.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749980.028152062] [auto_aim_node]: 处理帧率 119.6 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 119.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749980.279279390] [auto_aim_node]: 处理帧率 119.5 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 119.5 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749980.529405944] [auto_aim_node]: 处理帧率 120.5 fps（模型+PnP+EKF 4.5 ms/帧）| 采集 119.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749980.851439050] [auto_aim_node]: 处理帧率 105.2 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 105.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749981.115889172] [auto_aim_node]: 处理帧率 102.3 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 102.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749981.364615053] [auto_aim_node]: 处理帧率 116.4 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 116.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749981.613845350] [auto_aim_node]: 处理帧率 120.3 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749981.865931086] [auto_aim_node]: 处理帧率 119.6 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749982.115314572] [auto_aim_node]: 处理帧率 119.8 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749982.366469894] [auto_aim_node]: 处理帧率 119.4 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 119.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749982.618952484] [auto_aim_node]: 处理帧率 119.2 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 119.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792749982.835420088] [auto_aim_node]: 到点（出生点·补弹）
+[INFO] [1792749982.835451145] [auto_aim_node]: ===== 第 8/17 站：打符位·第三轮 → Unity(-15.5,-11.1)  完成条件 rune =====
+[INFO] [1792749982.837691984] [auto_aim_node]: -> 打符模式（RP26 链路：小符，第 2 次开符）
+[INFO] [1792749982.842004723] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=-66.31 pitch=9.10 | v0=23.7m/s | 等目标回来
+[INFO] [1792749983.471348310] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749983.689828230] [auto_aim_node]: 已规划：4 个点、13.6 m  从 (+13.4,-34.9) 到 (-15.5,-11.1)
+[INFO] [1792749984.004996528] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749984.512668394] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749985.025325828] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749985.519196868] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749986.020174922] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749986.521945362] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749987.019737426] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749987.544478763] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749988.043609317] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749988.563873234] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749989.100997544] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749989.626210221] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749990.170599724] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749990.710739262] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749990.886255401] [auto_aim_node]: 已到 打符位·第三轮，停住开打，等 rune 条件
+[INFO] [1792749990.886282279] [auto_aim_node]: 到打符位：开始自动叫符（每 2.0s 重试直到受理）
+[INFO] [1792749990.935112678] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888536（2.0s 没受理就重发）
+[WARN] [1792749990.944376955] [auto_aim_node]: 收到 activated=true 但本站还没叫过符（request_id=1792749888536）→ 忽略（上一轮的迟到/重发？）
+[INFO] [1792749991.260933963] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749991.795629408] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749992.312714623] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749992.837700891] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749992.936655113] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888537（2.0s 没受理就重发）
+[WARN] [1792749992.944355009] [auto_aim_node]: 收到 activated=true 但本站还没叫过符（request_id=1792749888537）→ 忽略（上一轮的迟到/重发？）
+[INFO] [1792749993.355668718] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749993.880671533] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749994.386153704] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749994.896501319] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749994.937640839] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888538（2.0s 没受理就重发）
+[WARN] [1792749994.946131465] [auto_aim_node]: 收到 activated=true 但本站还没叫过符（request_id=1792749888538）→ 忽略（上一轮的迟到/重发？）
+[INFO] [1792749995.405250136] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749995.931167632] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749996.450570655] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749996.983623381] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888539（2.0s 没受理就重发）
+[WARN] [1792749997.001523861] [auto_aim_node]: 收到 activated=true 但本站还没叫过符（request_id=1792749888539）→ 忽略（上一轮的迟到/重发？）
+[INFO] [1792749997.058988482] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749997.575375351] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749998.085217089] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749998.620475186] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749998.986556816] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888540（2.0s 没受理就重发）
+[WARN] [1792749999.004470186] [auto_aim_node]: 收到 activated=true 但本站还没叫过符（request_id=1792749888540）→ 忽略（上一轮的迟到/重发？）
+[INFO] [1792749999.203552433] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792749999.711716473] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[WARN] [1792749999.747505073] [auto_aim_node]: 叫符被拒（request_id=1792749888540）—— 每 2.0s 自动重试
+[INFO] [1792750000.237778819] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792750000.745085522] [auto_aim_node]: 打符[RP26 小符 第2次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792750001.034384597] [auto_aim_node]: 叫符: 已发 RuneRequest #1792749888541（2.0s 没受理就重发）
+[INFO] [1792750001.056209161] [auto_aim_node]: ★ 叫符成功（request_id=1792749888541）—— 进入打符模式（本局第 3 次开符）
+[INFO] [1792750001.348276874] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=2 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792750001.888223004] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=2 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.7m/s | 搜索
+[INFO] [1792750002.442721856] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=2 cls1=0 | found=1 fire=0 指令 yaw=47.76 pitch=-29.46 | v0=23.2m/s | RP26未放行
+[INFO] [1792750002.983192391] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=1 cls1=0 | found=1 fire=0 指令 yaw=38.45 pitch=-19.65 | v0=23.2m/s | RP26未放行
+[INFO] [1792750003.533833140] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=2 cls1=0 | found=1 fire=0 指令 yaw=45.51 pitch=-31.95 | v0=23.4m/s | RP26未放行
+[INFO] [1792750004.056013058] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=1 cls1=0 | found=1 fire=0 指令 yaw=48.59 pitch=-27.10 | v0=23.5m/s | RP26未放行
+[INFO] [1792750004.558747002] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=1 cls1=0 | found=1 fire=0 指令 yaw=45.67 pitch=-31.96 | v0=23.4m/s | RP26未放行
+[INFO] [1792750005.088246757] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=2 cls1=0 | found=1 fire=0 指令 yaw=32.61 pitch=-26.21 | v0=23.4m/s | RP26未放行
+[INFO] [1792750005.604624982] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=1 cls1=0 | found=1 fire=1 指令 yaw=40.63 pitch=-33.45 | v0=23.4m/s | 
+[INFO] [1792750006.148955184] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=2 cls1=0 | found=1 fire=0 指令 yaw=37.09 pitch=-32.51 | v0=23.6m/s | RP26未放行
+[INFO] [1792750006.681129080] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=1 cls1=0 | found=1 fire=0 指令 yaw=35.96 pitch=-32.06 | v0=23.5m/s | RP26未放行
+[INFO] [1792750007.223900024] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=1 cls1=0 | found=1 fire=0 指令 yaw=43.00 pitch=-32.97 | v0=23.6m/s | RP26未放行
+[INFO] [1792750007.837679503] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=2 cls1=0 | found=1 fire=0 指令 yaw=44.95 pitch=-32.36 | v0=23.3m/s | RP26未放行
+[INFO] [1792750008.378305278] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=1 cls1=0 | found=1 fire=0 指令 yaw=47.82 pitch=-23.65 | v0=23.3m/s | RP26未放行
+[INFO] [1792750008.718148804] [auto_aim_node]: ★ 增益已激活（request_id=1792749888541）—— 这轮符打完了，立即切回车自瞄
+[INFO] [1792750008.737344523] [auto_aim_node]: ★ 打符位·第三轮 完成（rune）→ 下一站
+[INFO] [1792750008.737373503] [auto_aim_node]: ===== 第 9/17 站：打四号车 → Unity(-20.3,+9.3)  完成条件 hp =====
+[INFO] [1792750008.739244587] [auto_aim_node]: 打符窗口结束 -> 回到车自瞄
+[INFO] [1792750008.764768684] [auto_aim_node]: 处理帧率 2.2 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 110.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750009.057052414] [auto_aim_node]: 处理帧率 2.2 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 107.3 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750009.332810984] [auto_aim_node]: 处理帧率 106.1 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 105.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750009.582587655] [auto_aim_node]: 已规划：7 个点、8.7 m  从 (-15.2,-12.1) 到 (-20.3,+9.3)
+[INFO] [1792750009.641298589] [auto_aim_node]: 处理帧率 102.4 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 102.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750009.937101137] [auto_aim_node]: 处理帧率 99.0 fps（模型+PnP+EKF 5.9 ms/帧）| 采集 99.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750010.245320883] [auto_aim_node]: 处理帧率 99.4 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 99.5 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750010.544935900] [auto_aim_node]: 处理帧率 98.3 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 98.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750010.837340349] [auto_aim_node]: 处理帧率 101.3 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 101.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750011.121753430] [auto_aim_node]: 处理帧率 104.0 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 103.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750011.414155330] [auto_aim_node]: 处理帧率 103.8 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 103.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750011.714048492] [auto_aim_node]: 处理帧率 102.4 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 102.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750012.028582051] [auto_aim_node]: 处理帧率 97.3 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 97.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750012.324615212] [auto_aim_node]: 处理帧率 98.1 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 98.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750012.686512365] [auto_aim_node]: 处理帧率 90.9 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 90.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750012.969181226] [auto_aim_node]: 处理帧率 93.1 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 93.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750013.244825463] [auto_aim_node]: 处理帧率 106.9 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 107.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750013.527552993] [auto_aim_node]: 处理帧率 106.9 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 107.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750013.797268286] [auto_aim_node]: 处理帧率 108.5 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 108.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750014.069992976] [auto_aim_node]: 处理帧率 110.6 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 110.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750014.119147923] [auto_aim_node]: 锁定切换: - → four
+[INFO] [1792750014.119192378] [auto_aim_node]: 状态: 搜索 → 确认
+[INFO] [1792750014.152567082] [auto_aim_node]: 状态: 确认 → 跟踪
+[INFO] [1792750014.288136111] [auto_aim_node]: 已到 打四号车，停住开打，等 hp 条件
+[INFO] [1792750014.320760190] [auto_aim_node]: 处理帧率 114.1 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 114.3 fps | 状态=跟踪 | 锁定=four 3.81m ω-388°/s r=0.227 dr=-0.094 | 开火=是 | 发散重建=9 | 观测=[four/red/0.94/3.4m/small ]
+[INFO] [1792750014.578931476] [auto_aim_node]: 处理帧率 117.7 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 117.8 fps | 状态=跟踪 | 锁定=four 3.47m ω-355°/s r=0.180 dr=+0.023 | 开火=否(换板等待(41ms)) | 发散重建=9 | 观测=[four/red/0.94/3.3m/small ]
+[INFO] [1792750014.847461267] [auto_aim_node]: 处理帧率 113.6 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 113.7 fps | 状态=跟踪 | 锁定=four 3.28m ω-330°/s r=0.185 dr=+0.029 | 开火=否(换板等待(7ms)) | 发散重建=9 | 观测=[four/red/0.92/3.2m/small ]
+[INFO] [1792750015.115134067] [auto_aim_node]: 处理帧率 113.9 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 113.9 fps | 状态=跟踪 | 锁定=four 3.41m ω-356°/s r=0.180 dr=+0.049 | 开火=否(换板等待(34ms)) | 发散重建=9 | 观测=[four/red/0.95/3.2m/small ]
+[INFO] [1792750015.372527686] [auto_aim_node]: 处理帧率 114.4 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 114.0 fps | 状态=跟踪 | 锁定=four 3.41m ω-357°/s r=0.175 dr=+0.065 | 开火=否(换板等待(48ms)) | 发散重建=9 | 观测=[four/red/0.92/3.3m/small ]
+[INFO] [1792750015.658425904] [auto_aim_node]: 处理帧率 110.4 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 110.5 fps | 状态=跟踪 | 锁定=four 3.56m ω-342°/s r=0.182 dr=+0.056 | 开火=否(云台未到位) | 发散重建=9 | 观测=[four/red/0.94/3.3m/small four/red/0.51/3.7m/small ]
+[INFO] [1792750015.916021637] [auto_aim_node]: 处理帧率 112.4 fps（模型+PnP+EKF 5.8 ms/帧）| 采集 112.3 fps | 状态=跟踪 | 锁定=four 3.61m ω-336°/s r=0.187 dr=+0.048 | 开火=否(换板等待(57ms)) | 发散重建=9 | 观测=[无]
+[INFO] [1792750016.032115772] [auto_aim_node]: 锁定切换: four → -
+[INFO] [1792750016.032159367] [auto_aim_node]: 状态: 跟踪 → 暂丢
+[INFO] [1792750016.164592882] [auto_aim_node]: 状态: 暂丢 → 搜索
+[INFO] [1792750016.184643624] [auto_aim_node]: 处理帧率 114.4 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 114.3 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750016.445840054] [auto_aim_node]: 处理帧率 113.3 fps（模型+PnP+EKF 5.7 ms/帧）| 采集 113.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750016.687026755] [auto_aim_node]: ★ 打四号车 完成（hp，目标已在路上被解决）→ 下一站
+[INFO] [1792750016.687069554] [auto_aim_node]: ===== 第 10/17 站：途经点1 → Unity(-9.6,-6.1)  完成条件 arrive =====
+[INFO] [1792750016.701976733] [auto_aim_node]: 处理帧率 115.8 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 115.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750016.971531914] [auto_aim_node]: 处理帧率 114.1 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 113.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750017.228605028] [auto_aim_node]: 处理帧率 113.9 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 113.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750017.479767633] [auto_aim_node]: 处理帧率 118.2 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 117.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750017.535605785] [auto_aim_node]: 已规划：3 个点、6.3 m  从 (-21.1,+8.3) 到 (-9.6,-6.1)
+[INFO] [1792750017.742825921] [auto_aim_node]: 处理帧率 117.1 fps（模型+PnP+EKF 5.9 ms/帧）| 采集 117.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750017.990041421] [auto_aim_node]: 处理帧率 117.8 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 117.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750018.242042581] [auto_aim_node]: 处理帧率 119.7 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750018.490276014] [auto_aim_node]: 处理帧率 120.0 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750018.744884016] [auto_aim_node]: 处理帧率 119.1 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 119.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750019.011452752] [auto_aim_node]: 处理帧率 115.7 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 115.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750019.259478737] [auto_aim_node]: 处理帧率 116.5 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 116.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750019.518949337] [auto_aim_node]: 处理帧率 118.2 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 118.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750019.793778630] [auto_aim_node]: 处理帧率 112.2 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 112.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750020.078942925] [auto_aim_node]: 处理帧率 107.0 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 107.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750020.334738492] [auto_aim_node]: 处理帧率 110.8 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 110.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750020.585926443] [auto_aim_node]: 处理帧率 118.0 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 118.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750020.835698543] [auto_aim_node]: 处理帧率 119.8 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750020.835869050] [auto_aim_node]: 到点（途经点1）
+[INFO] [1792750020.835875655] [auto_aim_node]: ===== 第 11/17 站：途经点2 → Unity(+13.2,-7.1)  完成条件 arrive =====
+[INFO] [1792750021.101012756] [auto_aim_node]: 处理帧率 116.2 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 116.3 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750021.352566810] [auto_aim_node]: 处理帧率 116.0 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 116.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750021.601859131] [auto_aim_node]: 处理帧率 119.9 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 119.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750021.686477127] [auto_aim_node]: 已规划：3 个点、8.1 m  从 (-10.2,-5.1) 到 (+13.2,-7.1)
+[INFO] [1792750021.856260856] [auto_aim_node]: 处理帧率 118.8 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 119.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750022.103044169] [auto_aim_node]: 处理帧率 119.7 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 119.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750022.355027770] [auto_aim_node]: 处理帧率 120.4 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 119.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750022.608968418] [auto_aim_node]: 处理帧率 118.6 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 119.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750022.856320569] [auto_aim_node]: 处理帧率 120.0 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750023.106136720] [auto_aim_node]: 处理帧率 120.7 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 120.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750023.355932803] [auto_aim_node]: 处理帧率 119.9 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 119.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750023.614772962] [auto_aim_node]: 处理帧率 117.8 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 118.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750023.891618335] [auto_aim_node]: 处理帧率 111.8 fps（模型+PnP+EKF 5.8 ms/帧）| 采集 111.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750024.142711451] [auto_aim_node]: 处理帧率 113.6 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 113.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750024.399939833] [auto_aim_node]: 处理帧率 118.2 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 118.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750024.647704180] [auto_aim_node]: 处理帧率 118.4 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 118.3 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750024.901731311] [auto_aim_node]: 处理帧率 119.6 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 119.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750025.171287867] [auto_aim_node]: 处理帧率 114.5 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 114.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750025.424182591] [auto_aim_node]: 处理帧率 114.6 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 114.5 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750025.674064304] [auto_aim_node]: 处理帧率 119.4 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 119.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750025.881825958] [auto_aim_node]: 到点（途经点2）
+[INFO] [1792750025.881854628] [auto_aim_node]: ===== 第 12/17 站：途经点3 → Unity(+11.8,+7.2)  完成条件 arrive =====
+[INFO] [1792750025.963895103] [auto_aim_node]: 处理帧率 110.6 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 110.5 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750026.215739429] [auto_aim_node]: 处理帧率 110.2 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 110.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750026.464582259] [auto_aim_node]: 处理帧率 119.8 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 119.7 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750026.682844806] [auto_aim_node]: 已规划：3 个点、4.8 m  从 (+12.3,-6.9) 到 (+11.8,+7.2)
+[INFO] [1792750026.715851046] [auto_aim_node]: 处理帧率 120.0 fps（模型+PnP+EKF 4.9 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750026.966935043] [auto_aim_node]: 处理帧率 119.6 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 120.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750027.232631529] [auto_aim_node]: 处理帧率 115.7 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 115.9 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750027.504390618] [auto_aim_node]: 处理帧率 111.5 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 111.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750027.817690260] [auto_aim_node]: 处理帧率 101.9 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 102.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750028.083400955] [auto_aim_node]: 处理帧率 103.7 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 103.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750028.341983967] [auto_aim_node]: 处理帧率 114.0 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 114.1 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750028.591962251] [auto_aim_node]: 处理帧率 120.3 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750028.844042226] [auto_aim_node]: 处理帧率 119.3 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750029.094565765] [auto_aim_node]: 处理帧率 119.6 fps（模型+PnP+EKF 4.8 ms/帧）| 采集 119.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750029.185897734] [auto_aim_node]: 到点（途经点3）
+[INFO] [1792750029.185930636] [auto_aim_node]: ===== 第 13/17 站：五号区域 → Unity(-4.5,+27.5)  完成条件 hp =====
+[INFO] [1792750029.344558731] [auto_aim_node]: 处理帧率 119.9 fps（模型+PnP+EKF 5.0 ms/帧）| 采集 119.4 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750029.594045574] [auto_aim_node]: 处理帧率 119.8 fps（模型+PnP+EKF 4.4 ms/帧）| 采集 119.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750029.845899874] [auto_aim_node]: 处理帧率 119.7 fps（模型+PnP+EKF 4.6 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750030.037328103] [auto_aim_node]: 已规划：4 个点、9.1 m  从 (+12.1,+6.0) 到 (-4.5,+27.5)
+[INFO] [1792750030.037896673] [auto_aim_node]: 5 号移动 → 行驶目标 Unity(-8.1,+30.6)，重规划
+[INFO] [1792750030.087117657] [auto_aim_node]: 已规划：3 个点、11.0 m  从 (+12.1,+6.0) 到 (-8.1,+30.6)
+[INFO] [1792750030.094721822] [auto_aim_node]: 处理帧率 119.8 fps（模型+PnP+EKF 4.7 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750030.355074268] [auto_aim_node]: 处理帧率 117.8 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 117.6 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750030.613891960] [auto_aim_node]: 处理帧率 115.5 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 116.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750030.860883839] [auto_aim_node]: 处理帧率 118.0 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 118.0 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750031.122222217] [auto_aim_node]: 处理帧率 117.6 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 117.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750031.391502054] [auto_aim_node]: 处理帧率 113.1 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 113.2 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=9 | 观测=[无]
+[INFO] [1792750031.448872620] [auto_aim_node]: 锁定切换: - → sentry
+[INFO] [1792750031.448935391] [auto_aim_node]: 状态: 搜索 → 确认
+[INFO] [1792750031.472987386] [auto_aim_node]: 状态: 确认 → 搜索
+[INFO] [1792750031.479851341] [auto_aim_node]: 状态: 搜索 → 确认
+[INFO] [1792750031.520647141] [auto_aim_node]: 状态: 确认 → 跟踪
+[INFO] [1792750031.646307950] [auto_aim_node]: 处理帧率 114.3 fps（模型+PnP+EKF 5.1 ms/帧）| 采集 114.2 fps | 状态=跟踪 | 锁定=sentry 9.21m ω-8°/s r=0.199 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[无]
+[INFO] [1792750031.719939326] [auto_aim_node]: 锁定切换: sentry → -
+[INFO] [1792750031.719992653] [auto_aim_node]: 状态: 跟踪 → 暂丢
+[INFO] [1792750031.754971549] [auto_aim_node]: 锁定切换: - → sentry
+[INFO] [1792750031.755019441] [auto_aim_node]: 状态: 暂丢 → 跟踪
+[INFO] [1792750031.905422281] [auto_aim_node]: 处理帧率 118.6 fps（模型+PnP+EKF 5.2 ms/帧）| 采集 118.2 fps | 状态=跟踪 | 锁定=sentry 8.03m ω-6°/s r=0.199 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[无]
+[INFO] [1792750032.165873039] [auto_aim_node]: 处理帧率 115.6 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 116.0 fps | 状态=跟踪 | 锁定=sentry 7.10m ω+134°/s r=0.208 dr=+0.000 | 开火=否(超距) | 发散重建=9 | 观测=[无]
+[INFO] [1792750032.417211600] [auto_aim_node]: 处理帧率 117.3 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 118.0 fps | 状态=跟踪 | 锁定=sentry 6.76m ω+85°/s r=0.201 dr=+0.000 | 开火=否(超距) | 发散重建=10 | 观测=[sentry/red/0.84/6.5m/small ]
+[INFO] [1792750032.675286023] [auto_aim_node]: 处理帧率 117.8 fps（模型+PnP+EKF 5.3 ms/帧）| 采集 117.7 fps | 状态=跟踪 | 锁定=sentry 5.76m ω+91°/s r=0.202 dr=+0.000 | 开火=否(超距) | 发散重建=10 | 观测=[sentry/red/0.88/5.5m/small ]
+[INFO] [1792750032.924031782] [auto_aim_node]: 处理帧率 118.6 fps（模型+PnP+EKF 5.8 ms/帧）| 采集 118.1 fps | 状态=跟踪 | 锁定=sentry 5.03m ω+125°/s r=0.212 dr=-0.003 | 开火=否(超距) | 发散重建=10 | 观测=[sentry/red/0.91/5.0m/small sentry/red/0.68/4.7m/small ]
+[INFO] [1792750033.184575208] [auto_aim_node]: 处理帧率 117.4 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 117.6 fps | 状态=跟踪 | 锁定=sentry 4.22m ω+81°/s r=0.189 dr=+0.047 | 开火=否(超距) | 发散重建=10 | 观测=[sentry/red/0.92/4.0m/small ]
+[INFO] [1792750033.434171447] [auto_aim_node]: 处理帧率 117.7 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 117.2 fps | 状态=跟踪 | 锁定=sentry 3.44m ω+71°/s r=0.184 dr=+0.063 | 开火=否(云台未到位) | 发散重建=10 | 观测=[无]
+[INFO] [1792750033.686067144] [auto_aim_node]: 处理帧率 119.9 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 119.9 fps | 状态=跟踪 | 锁定=sentry 2.79m ω-10°/s r=0.176 dr=+0.098 | 开火=是 | 发散重建=10 | 观测=[sentry/red/0.89/2.6m/small ]
+[INFO] [1792750033.734594112] [auto_aim_node]: 5 号移动 → 行驶目标 Unity(-2.1,+27.9)，重规划
+[INFO] [1792750033.784576042] [auto_aim_node]: 已规划：3 个点、2.7 m  从 (+1.5,+21.5) 到 (-2.1,+27.9)
+[INFO] [1792750033.953624110] [auto_aim_node]: 处理帧率 115.4 fps（模型+PnP+EKF 5.8 ms/帧）| 采集 115.7 fps | 状态=跟踪 | 锁定=sentry 2.18m ω+19°/s r=0.189 dr=+0.098 | 开火=否(云台未到位) | 发散重建=10 | 观测=[sentry/red/0.94/2.0m/small sentry/red/0.62/2.2m/small ]
+[INFO] [1792750034.202175258] [auto_aim_node]: 处理帧率 116.0 fps（模型+PnP+EKF 5.4 ms/帧）| 采集 115.9 fps | 状态=跟踪 | 锁定=sentry 1.83m ω-31°/s r=0.179 dr=+0.150 | 开火=是 | 发散重建=10 | 观测=[sentry/red/0.87/1.6m/small ]
+[INFO] [1792750034.336759266] [auto_aim_node]: 进入射程（4.5 < 4.5）→ 停车打 5 号
+[INFO] [1792750034.454602088] [auto_aim_node]: 处理帧率 119.3 fps（模型+PnP+EKF 5.6 ms/帧）| 采集 119.9 fps | 状态=跟踪 | 锁定=sentry 1.56m ω-63°/s r=0.189 dr=+0.134 | 开火=是 | 发散重建=10 | 观测=[无]
+[INFO] [1792750034.568973322] [auto_aim_node]: 锁定切换: sentry → -
+[INFO] [1792750034.569025706] [auto_aim_node]: 状态: 跟踪 → 暂丢
+[INFO] [1792750034.693943070] [auto_aim_node]: 状态: 暂丢 → 搜索
+[INFO] [1792750034.702260754] [auto_aim_node]: 处理帧率 119.9 fps（模型+PnP+EKF 5.5 ms/帧）| 采集 119.8 fps | 状态=搜索 | 锁定=- | 开火=否 | 发散重建=10 | 观测=[无]
+[INFO] [1792750034.735675475] [auto_aim_node]: ★ 五号区域 完成（hp）→ 下一站
+[INFO] [1792750034.735706403] [auto_aim_node]: ===== 第 14/17 站：打符位·第四轮 → Unity(-15.5,-11.1)  完成条件 rune =====
+[INFO] [1792750034.739813121] [auto_aim_node]: -> 打符模式（RP26 链路：大符，第 3 次开符）
+[INFO] [1792750034.913527033] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=-21.10 pitch=-4.00 | v0=23.5m/s | 等目标回来
+[INFO] [1792750035.412593016] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792750035.584486569] [auto_aim_node]: 已规划：11 个点、22.0 m  从 (-0.9,+24.8) 到 (-15.5,-11.1)
+[INFO] [1792750035.913721402] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792750036.414094215] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792750036.915902359] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792750037.416748040] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792750037.917179085] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792750038.419163603] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792750038.925728820] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792750039.426288051] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[INFO] [1792750039.926978112] [auto_aim_node]: 打符[RP26 大符 第3次] cls0=0 cls1=0 | found=0 fire=0 指令 yaw=40.90 pitch=-18.88 | v0=23.5m/s | 搜索
+[WARN] [1792750040.781812634] [auto_aim_node]: 断流 0.50s（帧停了？）
+[INFO] [1792750042.620641660] [rclcpp]: signal_handler(SIGINT/SIGTERM)

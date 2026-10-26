@@ -1,0 +1,1 @@
+/home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

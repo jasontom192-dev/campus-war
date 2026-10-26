@@ -1,0 +1,1 @@
+/home/king/tdt-learning4.5/tdt_contest_ws/src/tdt_interface/msg/AutoAimState.msg

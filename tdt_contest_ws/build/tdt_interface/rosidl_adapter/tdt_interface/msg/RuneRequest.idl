@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tdt_interface/msg/RuneRequest.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module tdt_interface {
+  module msg {
+    struct RuneRequest {
+      std_msgs::msg::Header header;
+
+      uint64 request_id;
+    };
+  };
+};

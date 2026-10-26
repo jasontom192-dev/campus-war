@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tdt_interface/msg/AutoAimFrame.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/CameraInfo.idl"
+#include "sensor_msgs/msg/CompressedImage.idl"
+#include "sensor_msgs/msg/Image.idl"
+#include "std_msgs/msg/Header.idl"
+#include "tdt_interface/msg/AutoAimState.idl"
+
+module tdt_interface {
+  module msg {
+    struct AutoAimFrame {
+      std_msgs::msg::Header header;
+
+      tdt_interface::msg::AutoAimState state;
+
+      sensor_msgs::msg::CameraInfo camera_info;
+
+      sensor_msgs::msg::Image image;
+
+      sensor_msgs::msg::CompressedImage compressed_image;
+
+      float capture_to_publish_ms;
+    };
+  };
+};

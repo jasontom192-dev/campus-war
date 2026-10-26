@@ -1,0 +1,1 @@
+/home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface/rosidl_generator_c/tdt_interface/msg/detail/rune_request__struct.h

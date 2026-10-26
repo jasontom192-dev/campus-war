@@ -1,0 +1,20 @@
+CMake Error at CMakeLists.txt:110 (add_executable):
+  Cannot find source file:
+
+    /home/king/tdt-learning4.5/src/nav_grid.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+
+
+CMake Error at CMakeLists.txt:110 (add_executable):
+  No SOURCES given to target: auto_aim_node
+
+
+CMake Error at CMakeLists.txt:133 (add_executable):
+  No SOURCES given to target: navgrid_test
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+gmake: *** [Makefile:592：cmake_check_build_system] 错误 1

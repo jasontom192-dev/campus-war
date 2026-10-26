@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface/rosidl_generator_py/tdt_interface/tdt_interface_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "tdt_interface_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/tdt_interface")

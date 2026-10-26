@@ -1,0 +1,64 @@
+[0.008s] Invoking command in '/home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest': CMAKE_PREFIX_PATH=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface:/home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.3/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface:/home/king/ros2_task1_ws/install/task1_pkg:/home/king/task4_ws/install/task4_sensors:/home/king/task4_ws/install/task4_recorder:/home/king/task3_ws/install/task3_nodes:/home/king/task3_ws/install/task3_interfaces:/home/king/task2_ws/install/task2_image_component:/opt/ros/jazzy:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface/lib:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface/lib:/home/king/task4_ws/install/task4_sensors/lib:/home/king/task4_ws/install/task4_recorder/lib:/home/king/task3_ws/install/task3_interfaces/lib:/home/king/task2_ws/install/task2_image_component/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib /usr/local/bin/cmake --build /home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest -- -j24 -l24
+[0.023s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.219s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.224s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.246s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.253s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.330s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.331s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.395s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.457s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.620s] -- Found tdt_interface: 0.0.1 (/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/share/tdt_interface/cmake)
+[0.729s] -- TensorRT: /home/king/TensorRT/include / /home/king/TensorRT/lib
+[0.729s] -- cudart:   /home/king/TensorRT/cudart/usr/local/cuda-13.2/targets/x86_64-linux/include / /home/king/TensorRT/cudart/usr/local/cuda-13.2/targets/x86_64-linux/lib
+[0.817s] -- Configuring done (0.8s)
+[0.838s] -- Generating done (0.0s)
+[0.862s] -- Build files have been written to: /home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest
+[0.878s] [  4%] Building CXX object CMakeFiles/navgrid_test.dir/src/navgrid_test.cpp.o
+[0.878s] [  8%] Building CXX object CMakeFiles/navgrid_test.dir/src/nav_grid.cpp.o
+[0.880s] [ 16%] Built target NNdeployment_mpt_lib
+[0.900s] [ 40%] Built target NNdeployment_lib
+[0.949s] [ 44%] Building CXX object CMakeFiles/auto_aim_node.dir/src/auto_aim_node.cpp.o
+[0.949s] [ 48%] Building CXX object CMakeFiles/auto_aim_node.dir/src/nav_grid.cpp.o
+[1.220s] In file included from /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.cpp:2:
+[1.220s] /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp: In member function ‘std::pair<int, int> NavGrid::cell_of(double, double) const’:
+[1.220s] /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp:39:35: error: ‘llround’ is not a member of ‘std’
+[1.220s]    39 |     return {static_cast<int>(std::llround((x - fx0) / res)),
+[1.220s]       |                                   ^~~~~~~
+[1.220s] /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp:40:35: error: ‘llround’ is not a member of ‘std’
+[1.220s]    40 |             static_cast<int>(std::llround((z - fz0) / res))};
+[1.220s]       |                                   ^~~~~~~
+[1.220s] /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp:40:60: error: could not convert ‘{<expression error>, <expression error>}’ from ‘<brace-enclosed initializer list>’ to ‘std::pair<int, int>’
+[1.220s]    40 |             static_cast<int>(std::llround((z - fz0) / res))};
+[1.220s]       |                                                            ^
+[1.220s]       |                                                            |
+[1.220s]       |                                                            <brace-enclosed initializer list>
+[1.290s] In file included from /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.cpp:2:
+[1.290s] /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp: In member function ‘std::pair<int, int> NavGrid::cell_of(double, double) const’:
+[1.290s] /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp:39:35: error: ‘llround’ is not a member of ‘std’
+[1.290s]    39 |     return {static_cast<int>(std::llround((x - fx0) / res)),
+[1.290s]       |                                   ^~~~~~~
+[1.291s] /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp:40:35: error: ‘llround’ is not a member of ‘std’
+[1.291s]    40 |             static_cast<int>(std::llround((z - fz0) / res))};
+[1.291s]       |                                   ^~~~~~~
+[1.291s] /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/nav_grid.hpp:40:60: error: could not convert ‘{<expression error>, <expression error>}’ from ‘<brace-enclosed initializer list>’ to ‘std::pair<int, int>’
+[1.291s]    40 |             static_cast<int>(std::llround((z - fz0) / res))};
+[1.291s]       |                                                            ^
+[1.291s]       |                                                            |
+[1.291s]       |                                                            <brace-enclosed initializer list>
+[2.678s] gmake[2]: *** [CMakeFiles/navgrid_test.dir/build.make:93：CMakeFiles/navgrid_test.dir/src/nav_grid.cpp.o] 错误 1
+[2.678s] gmake[2]: *** 正在等待未完成的任务....
+[2.752s] gmake[1]: *** [CMakeFiles/Makefile2:213：CMakeFiles/navgrid_test.dir/all] 错误 2
+[2.752s] gmake[1]: *** 正在等待未完成的任务....
+[2.912s] gmake[2]: *** [CMakeFiles/auto_aim_node.dir/build.make:247：CMakeFiles/auto_aim_node.dir/src/nav_grid.cpp.o] 错误 1
+[2.913s] gmake[2]: *** 正在等待未完成的任务....
+[4.670s] /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/auto_aim_node.cpp: In member function ‘void AutoAimNode::enter_stage(int)’:
+[4.671s] /home/king/tdt-learning4.5/tdt_contest_ws/src/auto_aim_contest/src/auto_aim_node.cpp:1033:5: error: ‘waiting_’ was not declared in this scope
+[4.671s]  1033 |     waiting_ = false;
+[4.671s]       |     ^~~~~~~~
+[10.690s] gmake[2]: *** [CMakeFiles/auto_aim_node.dir/build.make:79：CMakeFiles/auto_aim_node.dir/src/auto_aim_node.cpp.o] 错误 1
+[10.691s] gmake[1]: *** [CMakeFiles/Makefile2:181：CMakeFiles/auto_aim_node.dir/all] 错误 2
+[10.691s] gmake: *** [Makefile:146：all] 错误 2
+[10.692s] Invoked command in '/home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest' returned '2': CMAKE_PREFIX_PATH=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface:/home/king/tdt-learning4.5/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.3/tdt_contest_ws/install/auto_aim_contest:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface:/home/king/ros2_task1_ws/install/task1_pkg:/home/king/task4_ws/install/task4_sensors:/home/king/task4_ws/install/task4_recorder:/home/king/task3_ws/install/task3_nodes:/home/king/task3_ws/install/task3_interfaces:/home/king/task2_ws/install/task2_image_component:/opt/ros/jazzy:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/ros_tcp_endpoint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/king/tdt-learning4.5/tdt_contest_ws/install/tdt_interface/lib:/home/king/tdt-learning4.3/tdt_contest_ws/install/tdt_interface/lib:/home/king/tdt-learning4.3/campusgame_ros/ros2_auto_framework/install/tdt_interface/lib:/home/king/task4_ws/install/task4_sensors/lib:/home/king/task4_ws/install/task4_recorder/lib:/home/king/task3_ws/install/task3_interfaces/lib:/home/king/task2_ws/install/task2_image_component/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib /usr/local/bin/cmake --build /home/king/tdt-learning4.5/tdt_contest_ws/build/auto_aim_contest -- -j24 -l24

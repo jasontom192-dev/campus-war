@@ -1,0 +1,1 @@
+/home/king/tdt-learning4.5/tdt_contest_ws/build/tdt_interface/rosidl_typesupport_fastrtps_c/tdt_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
